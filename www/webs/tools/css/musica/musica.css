@@ -1,0 +1,1011 @@
+@media only screen and (min-width: 1920px) {
+	#capa-marco-lista-musica {
+		position:absolute; 
+		left:25%; 
+		top:155; 
+		width:50%; 
+		height:10; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	#capa-filtros-musica {
+		position:relative; 
+		display:grid; 
+		width:100%; 
+		grid-template-columns: 25% 25% 25% 25%; 
+		height:30; 
+		padding:3px;
+	}
+	.capa_filtro_elegir {
+		height:100%; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:3px; 
+		text-align:center;
+	}
+	.capa_filtro_nuevo {
+		display:table; 
+		height:100%; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:3px; 
+	}
+	.capa_boton_nuevo {
+		display:table-cell; 
+		width:100%; 
+		height:100%; 
+		text-align:center; 
+		vertical-align:middle;
+	}
+	.boton_filtro {
+		width:80%; 
+		height:100%; 
+		cursor:pointer;
+	}
+	#capa-lista-musica {
+		position:relative; 
+		display:grid; 
+		width:100%; 
+		grid-template-columns: 33% 33% 33%; 
+		height:10; 
+	}
+	.capa_datos_musica  {
+		height:300; 
+		background-color:#fff; 
+		display:table;
+	}
+	.celda_dato_musica {
+		display:table-cell; 
+		width:100%; 
+		height:100%; 
+		text-align:center; 
+		vertical-align:middle
+	}
+	.bloque_dato_musica {
+		display:block; 
+		width:95%; 
+		height:95%; 
+		background-size:cover; 
+		background-position:center;
+	}
+	.tabla_dato_musica {
+		width:100%; 
+		height:100%; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.td_dato_musica {
+		height:50%; 
+		background-color:#000000; 
+		opacity:0.2; 
+		text-align:right; 
+		vertical-align:bottom; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:3px; 
+		color:#FFFFFF;
+	}
+	.boton_accion_musica {
+		background-color:#000000; 
+		width:40; 
+		height:40; 
+		background-position:center; 
+		background-size:cover; 
+		cursor:pointer;
+	}
+	#capa-marco-eliminar {
+		position:fixed; 
+		left:0; 
+		top:0; 
+		width:100%; 
+		height:100%; 
+		z-index:999; 
+		display:none;
+	}
+	.capa_sombra_musica {
+		position:absolute; 
+		left:0; 
+		top:0; 
+		width:100%; 
+		height:100%; 
+		background-color:#000000; 
+		opacity:0.8; 
+	}
+	.capa_dialogo_eliminar {
+		position:absolute; 
+		left:35%; 
+		top:40%; 
+		width:30%; 
+		height:20%; 
+		background-color:#FFFFFF; 
+		border:1px solid black; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.tabla_eliminar_musica {
+		width:100%; 
+		height:100%; 
+		border:0px; 
+		border-spacing::0px; 
+		padding:0px; 
+	}
+	.td_eliminar_01 {
+		width:100%; 
+		height:35%; 
+		text-align:center; 
+		vertical-align:bottom; 
+		border:0px; 
+		border-spacing::0px; 
+		padding:0px; 
+	}
+	.td_eliminar_02 {
+		width:100%; 
+		height:35%; 
+		text-align:center; 
+		vertical-align:top; 
+		border:0px; 
+		border-spacing::0px; 
+		padding:0px;
+	}
+	.td_eliminar_03 {
+		width:100%; 
+		height:30%; 
+		text-align:center; 
+		vertical-align:middle; 
+		border:0px; 
+		border-spacing::0px; 
+		padding:0px; 
+	}
+	.boton_eliminar {
+		width:50; 
+		height:30; 
+		cursor:pointer;
+	}
+	#capa-marco-ver-musica {
+		position:fixed; 
+		left:0; 
+		top:0; 
+		width:100%; 
+		height:100%; 
+		display:none; 
+	}
+	#capa-marco-ajax-musica {
+		position:absolute; 
+		left:60%; 
+		top:5%; 
+		width:25%; 
+		height:90%; 
+		background-color:#FFFFFF; 
+		border:1px solid black; 
+		border-spacing:0px; 
+		padding:0px; 
+		border-radius:20px; 
+		overflow:hidden
+	}
+	#capa-carga-musica {
+		position:fixed; 
+		left:0; 
+		top:0; 
+		width:100%; 
+		height:100%; 
+		display:none; 
+		z-index:100; 
+	}
+	#capa-sombra-carga {
+		position:absolute; 
+		left:0; 
+		top:0; 
+		width:100%; 
+		height:100%; 
+		background-color:#000000; 
+		opacity:0.8;
+	}
+	#capa-gif-carga {
+		position:absolute; 
+		left:45%; 
+		top:45%; 
+		width:10%; 
+		height:10%; 
+		text-align:center;
+	}
+	.capa_foto_musica_ajax {
+		position:relative; 
+		width:100%; 
+		height:40%; 
+		background-color:#000; 
+		background-position:center; 
+		background-size:cover;
+	}
+	.capa_datos_musica_ajax {
+		position:relative; 
+		height:18%; 
+		color:#000000; 
+		font-size:1.1em; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:5px;
+	}
+	.capa_log_musica_ajax {
+		position:relative; 
+		height:10%; 
+		font-size:1.2em; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:5px;
+	}
+	.capa_boton_musica_ajax {
+		position:relative; 
+		height:5%; 
+		text-align:center;
+	}
+	.capa_lista_canciones_ajax {
+		position:relative; 
+		height:27%; 
+		text-align:center; 
+		overflow-x:hidden; 
+		overflow-y:auto; 
+	}
+}
+@media only screen and ((min-width: 1280px) and (max-width: 1919px)) {
+	#capa-marco-lista-musica {
+		position:absolute; 
+		left:15%; 
+		top:135; 
+		width:70%; 
+		height:10; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	#capa-filtros-musica {
+		position:relative; 
+		display:grid; 
+		width:100%; 
+		grid-template-columns: 25% 25% 25% 25%; 
+		height:30; 
+		padding:3px;
+	}
+	.capa_filtro_elegir {
+		height:100%; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:3px; 
+		text-align:center;
+	}
+	.capa_filtro_nuevo {
+		display:table; 
+		height:100%; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:3px; 
+	}
+	.capa_boton_nuevo {
+		display:table-cell; 
+		width:100%; 
+		height:100%; 
+		text-align:center; 
+		vertical-align:middle;
+	}
+	.boton_filtro {
+		width:80%; 
+		height:100%; 
+		cursor:pointer;
+	}
+	#capa-lista-musica {
+		position:relative; 
+		display:grid; 
+		width:100%; 
+		grid-template-columns: 33% 33% 33%; 
+		height:10; 
+	}
+	.capa_datos_musica  {
+		height:300; 
+		background-color:#fff; 
+		display:table;
+	}
+	.celda_dato_musica {
+		display:table-cell; 
+		width:100%; 
+		height:100%; 
+		text-align:center; 
+		vertical-align:middle
+	}
+	.bloque_dato_musica {
+		display:block; 
+		width:95%; 
+		height:95%; 
+		background-size:cover; 
+		background-position:center;
+	}
+	.tabla_dato_musica {
+		width:100%; 
+		height:100%; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.td_dato_musica {
+		height:50%; 
+		background-color:#000000; 
+		opacity:0.2; 
+		text-align:right; 
+		vertical-align:bottom; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:3px; 
+		color:#FFFFFF;
+	}
+	.boton_accion_musica {
+		background-color:#000000; 
+		width:40; 
+		height:40; 
+		background-position:center; 
+		background-size:cover; 
+		cursor:pointer;
+	}
+	#capa-marco-eliminar {
+		position:fixed; 
+		left:0; 
+		top:0; 
+		width:100%; 
+		height:100%; 
+		z-index:999; 
+		display:none;
+	}
+	.capa_sombra_musica {
+		position:absolute; 
+		left:0; 
+		top:0; 
+		width:100%; 
+		height:100%; 
+		background-color:#000000; 
+		opacity:0.8; 
+	}
+	.capa_dialogo_eliminar {
+		position:absolute; 
+		left:35%; 
+		top:37.5%; 
+		width:30%; 
+		height:25%; 
+		background-color:#FFFFFF; 
+		border:1px solid black; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.tabla_eliminar_musica {
+		width:100%; 
+		height:100%; 
+		border:0px; 
+		border-spacing::0px; 
+		padding:0px; 
+	}
+	.td_eliminar_01 {
+		width:100%; 
+		height:35%; 
+		text-align:center; 
+		vertical-align:bottom; 
+		border:0px; 
+		border-spacing::0px; 
+		padding:0px; 
+	}
+	.td_eliminar_02 {
+		width:100%; 
+		height:35%; 
+		text-align:center; 
+		vertical-align:top; 
+		border:0px; 
+		border-spacing::0px; 
+		padding:0px;
+	}
+	.td_eliminar_03 {
+		width:100%; 
+		height:30%; 
+		text-align:center; 
+		vertical-align:middle; 
+		border:0px; 
+		border-spacing::0px; 
+		padding:0px; 
+	}
+	.boton_eliminar {
+		width:50; 
+		height:20; 
+		cursor:pointer;
+	}
+
+	#capa-carga-musica {
+		position:fixed; 
+		left:0; 
+		top:0; 
+		width:100%; 
+		height:100%; 
+		display:none; 
+		z-index:100; 
+	}
+	#capa-sombra-carga {
+		position:absolute; 
+		left:0; 
+		top:0; 
+		width:100%; 
+		height:100%; 
+		background-color:#000000; 
+		opacity:0.8;
+	}
+	#capa-gif-carga {
+		position:absolute; 
+		left:45%; 
+		top:45%; 
+		width:10%; 
+		height:10%; 
+		text-align:center;
+	}
+	#capa-marco-ver-musica {
+		position:fixed; 
+		left:0; 
+		top:0; 
+		width:100%; 
+		height:100%; 
+		display:none; 
+	}
+	#capa-marco-ajax-musica {
+		position:absolute; 
+		left:60%; 
+		top:2%; 
+		width:35%; 
+		height:95%; 
+		background-color:#FFFFFF; 
+		border:1px solid black; 
+		border-spacing:0px; 
+		padding:0px; 
+		border-radius:20px; 
+		overflow:hidden
+	}
+	.capa_foto_musica_ajax {
+		position:relative; 
+		width:100%; 
+		height:30%; 
+		background-color:#000; 
+		background-position:center; 
+		background-size:cover;
+	}
+	.capa_datos_musica_ajax {
+		position:relative; 
+		height:18%; 
+		color:#000000; 
+		font-size:1em; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:5px;
+	}
+	.capa_log_musica_ajax {
+		position:relative; 
+		height:10%; 
+		font-size:1em; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:5px;
+	}
+	.capa_boton_musica_ajax {
+		position:relative; 
+		height:5%; 
+		text-align:center;
+	}
+	.capa_lista_canciones_ajax {
+		position:relative; 
+		height:35%; 
+		text-align:center; 
+		overflow-x:hidden; 
+		overflow-y:auto; 
+	}
+}
+@media only screen and ((min-width: 800px) and (max-width: 1279px)) {
+	#capa-marco-lista-musica {
+		position:absolute; 
+		left:10%; 
+		top:115; 
+		width:80%; 
+		height:10; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	#capa-filtros-musica {
+		position:relative; 
+		display:grid; 
+		width:100%; 
+		grid-template-columns: 25% 25% 25% 25%; 
+		height:40; 
+		padding:3px;
+	}
+	.capa_filtro_elegir {
+		height:100%; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:3px; 
+		text-align:center;
+	}
+	.capa_filtro_nuevo {
+		display:table; 
+		height:100%; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:3px; 
+	}
+	.capa_boton_nuevo {
+		display:table-cell; 
+		width:100%; 
+		height:100%; 
+		text-align:center; 
+		vertical-align:middle;
+	}
+	.boton_filtro {
+		width:95%; 
+		height:100%; 
+		cursor:pointer;
+	}
+	#capa-lista-musica {
+		position:relative; 
+		display:grid; 
+		width:100%; 
+		grid-template-columns: 50% 50%; 
+		height:10; 
+	}
+	.capa_datos_musica  {
+		height:300; 
+		background-color:#fff; 
+		display:table;
+	}
+	.celda_dato_musica {
+		display:table-cell; 
+		width:100%; 
+		height:100%; 
+		text-align:center; 
+		vertical-align:middle
+	}
+	.bloque_dato_musica {
+		display:block; 
+		width:95%; 
+		height:95%; 
+		background-size:cover; 
+		background-position:center;
+	}
+	.tabla_dato_musica {
+		width:100%; 
+		height:100%; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.td_dato_musica {
+		height:50%; 
+		background-color:#000000; 
+		opacity:0.2; 
+		text-align:right; 
+		vertical-align:bottom; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:3px; 
+		color:#FFFFFF;
+	}
+	.boton_accion_musica {
+		background-color:#000000; 
+		width:40; 
+		height:40; 
+		background-position:center; 
+		background-size:cover; 
+		cursor:pointer;
+	}
+	#capa-marco-eliminar {
+		position:fixed; 
+		left:0; 
+		top:0; 
+		width:100%; 
+		height:100%; 
+		z-index:999; 
+		display:none;
+	}
+	.capa_sombra_musica {
+		position:absolute; 
+		left:0; 
+		top:0; 
+		width:100%; 
+		height:100%; 
+		background-color:#000000; 
+		opacity:0.8; 
+	}
+	.capa_dialogo_eliminar {
+		position:absolute; 
+		left:35%; 
+		top:35%; 
+		width:40%; 
+		height:30%; 
+		background-color:#FFFFFF; 
+		border:1px solid black; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.tabla_eliminar_musica {
+		width:100%; 
+		height:100%; 
+		border:0px; 
+		border-spacing::0px; 
+		padding:0px; 
+	}
+	.td_eliminar_01 {
+		width:100%; 
+		height:35%; 
+		text-align:center; 
+		vertical-align:bottom; 
+		border:0px; 
+		border-spacing::0px; 
+		padding:0px; 
+	}
+	.td_eliminar_02 {
+		width:100%; 
+		height:35%; 
+		text-align:center; 
+		vertical-align:top; 
+		border:0px; 
+		border-spacing::0px; 
+		padding:0px;
+	}
+	.td_eliminar_03 {
+		width:100%; 
+		height:30%; 
+		text-align:center; 
+		vertical-align:middle; 
+		border:0px; 
+		border-spacing::0px; 
+		padding:0px; 
+	}
+	.boton_eliminar {
+		width:50; 
+		height:20; 
+		cursor:pointer;
+	}
+
+	#capa-carga-musica {
+		position:fixed; 
+		left:0; 
+		top:0; 
+		width:100%; 
+		height:100%; 
+		display:none; 
+		z-index:100; 
+	}
+	#capa-sombra-carga {
+		position:absolute; 
+		left:0; 
+		top:0; 
+		width:100%; 
+		height:100%; 
+		background-color:#000000; 
+		opacity:0.8;
+	}
+	#capa-gif-carga {
+		position:absolute; 
+		left:45%; 
+		top:45%; 
+		width:10%; 
+		height:10%; 
+		text-align:center;
+	}
+	#capa-marco-ver-musica {
+		position:fixed; 
+		left:0; 
+		top:0; 
+		width:100%; 
+		height:100%; 
+		display:none; 
+	}
+	#capa-marco-ajax-musica {
+		position:absolute; 
+		left:20%; 
+		top:1%; 
+		width:60%; 
+		height:98%; 
+		background-color:#FFFFFF; 
+		border:1px solid black; 
+		border-spacing:0px; 
+		padding:0px; 
+		border-radius:20px; 
+		overflow:hidden
+	}
+	.capa_foto_musica_ajax {
+		position:relative; 
+		width:100%; 
+		height:20%; 
+		background-color:#000; 
+		background-position:center; 
+		background-size:cover;
+	}
+	.capa_datos_musica_ajax {
+		position:relative; 
+		height:23%; 
+		color:#000000; 
+		font-size:1em; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:5px;
+	}
+	.capa_log_musica_ajax {
+		position:relative; 
+		height:10%; 
+		font-size:0.9em; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:5px;
+	}
+	.capa_boton_musica_ajax {
+		position:relative; 
+		height:5%; 
+		text-align:center;
+	}
+	.capa_lista_canciones_ajax {
+		position:relative; 
+		height:35%; 
+		text-align:center; 
+		overflow-x:hidden; 
+		overflow-y:auto; 
+	}
+}
+@media only screen and (max-width: 799px) {
+	#capa-marco-lista-musica {
+		position:absolute; 
+		left:0; 
+		top:80; 
+		width:100%; 
+		height:10; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	#capa-filtros-musica {
+		position:relative; 
+		display:grid; 
+		width:100%; 
+		grid-template-columns: 50% 50%; 
+		height:70; 
+		padding:0px;
+	}
+	.capa_filtro_elegir {
+		height:30; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:3px; 
+		text-align:center;
+	}
+	.capa_filtro_nuevo {
+		display:table; 
+		height:100%; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:3px; 
+	}
+	.capa_boton_nuevo {
+		display:table-cell; 
+		width:100%; 
+		height:100%; 
+		text-align:center; 
+		vertical-align:middle;
+	}
+	.boton_filtro {
+		width:80%; 
+		height:100%; 
+		cursor:pointer;
+	}
+	#capa-lista-musica {
+		position:relative; 
+		display:grid; 
+		width:100%; 
+		grid-template-columns: 100%; 
+		height:10; 
+		border:0px;
+		border-spacing:0px;
+		padding:0px;
+	}
+	.capa_datos_musica  {
+		height:300; 
+		background-color:#fff; 
+		display:table;
+		border:0px;
+		border-spacing:0px;
+		padding:0px;
+	}
+	.celda_dato_musica {
+		display:table-cell; 
+		width:100%; 
+		height:100%; 
+		text-align:center; 
+		vertical-align:middle;
+		border:0px;
+		border-spacing:0px;
+		padding:0px;
+	}
+	.bloque_dato_musica {
+		display:block;
+		width:100%; 
+		height:95%; 
+		background-size:cover; 
+		background-position:center;
+	}
+	.tabla_dato_musica {
+		width:100%; 
+		height:100%; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.td_dato_musica {
+		height:50%; 
+		background-color:#000000; 
+		opacity:0.9; 
+		text-align:right; 
+		vertical-align:bottom; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:3px; 
+		color:#FFFFFF;
+	}
+	.boton_accion_musica {
+		background-color:#000000; 
+		width:40; 
+		height:40; 
+		background-position:center; 
+		background-size:cover; 
+		cursor:pointer;
+	}
+	#capa-marco-eliminar {
+		position:fixed; 
+		left:0; 
+		top:0; 
+		width:100%; 
+		height:100%; 
+		z-index:999; 
+		display:none;
+	}
+	.capa_sombra_musica {
+		position:absolute; 
+		left:0; 
+		top:0; 
+		width:100%; 
+		height:100%; 
+		background-color:#000000; 
+		opacity:0.8; 
+	}
+	.capa_dialogo_eliminar {
+		position:absolute; 
+		left:5%; 
+		top:35%; 
+		width:90%; 
+		height:20%; 
+		background-color:#FFFFFF; 
+		border:1px solid black; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.tabla_eliminar_musica {
+		width:100%; 
+		height:100%; 
+		border:0px; 
+		border-spacing::0px; 
+		padding:0px; 
+	}
+	.td_eliminar_01 {
+		width:100%; 
+		height:35%; 
+		text-align:center; 
+		vertical-align:bottom; 
+		border:0px; 
+		border-spacing::0px; 
+		padding:0px; 
+	}
+	.td_eliminar_02 {
+		width:100%; 
+		height:35%; 
+		text-align:center; 
+		vertical-align:top; 
+		border:0px; 
+		border-spacing::0px; 
+		padding:0px;
+	}
+	.td_eliminar_03 {
+		width:100%; 
+		height:30%; 
+		text-align:center; 
+		vertical-align:middle; 
+		border:0px; 
+		border-spacing::0px; 
+		padding:0px; 
+	}
+	.boton_eliminar {
+		width:50; 
+		height:20; 
+		cursor:pointer;
+	}
+	#capa-carga-musica {
+		position:fixed; 
+		left:0; 
+		top:0; 
+		width:100%; 
+		height:100%; 
+		display:none; 
+		z-index:100; 
+	}
+	#capa-sombra-carga {
+		position:absolute; 
+		left:0; 
+		top:0; 
+		width:100%; 
+		height:100%; 
+		background-color:#000000; 
+		opacity:0.8;
+	}
+	#capa-gif-carga {
+		position:absolute; 
+		left:45%; 
+		top:45%; 
+		width:10%; 
+		height:10%; 
+		text-align:center;
+	}
+	#capa-marco-ver-musica {
+		position:fixed; 
+		left:0; 
+		top:0; 
+		width:100%; 
+		height:100%; 
+		display:none; 
+	}
+	#capa-marco-ajax-musica {
+		position:absolute; 
+		left:2%; 
+		top:15%; 
+		width:96%; 
+		height:80%; 
+		background-color:#FFFFFF; 
+		border:1px solid black; 
+		border-spacing:0px; 
+		padding:0px; 
+		border-radius:20px; 
+		overflow:hidden
+	}
+	.capa_foto_musica_ajax {
+		position:relative; 
+		width:100%; 
+		height:30%; 
+		background-color:#000; 
+		background-position:center; 
+		background-size:cover;
+	}
+	.capa_datos_musica_ajax {
+		position:relative; 
+		height:20%; 
+		color:#000000; 
+		font-size:0.8em; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:5px;
+	}
+	.capa_log_musica_ajax {
+		position:relative; 
+		height:15%; 
+		font-size:0.9em; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:5px;
+	}
+	.capa_boton_musica_ajax {
+		position:relative; 
+		height:5%; 
+		text-align:center;
+	}
+	.capa_lista_canciones_ajax {
+		position:relative; 
+		height:30%; 
+		text-align:center; 
+		overflow-x:hidden; 
+		overflow-y:auto; 
+	}
+}
