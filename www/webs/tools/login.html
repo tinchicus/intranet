@@ -1,0 +1,31 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<link rel="stylesheet" href="css/login.css" type="text/css"/>
+<title>Tools / Login</title>
+<form id="form1" name="form1" action="php/datos/login.php" method="post">
+<div id="capa-marco-login" style="">
+	<table class="tabla_login" style=" ">
+		<tr>
+			<td class="td_login" style="">
+			<table class="tabla_dialogo" style="" align="center">
+				<tr>
+					<td class="td_dialogo_1" style="">Usuario: </td>
+					<td class="td_dialogo_2" style=""><input type="text" id="user" name="user" value=""></td>
+				</tr>
+				<tr>
+					<td class="td_dialogo_1">Password: </td>
+					<td class="td_dialogo_2"><input type="password" id="pass" name="pass" value=""></td>
+				</tr>
+				<tr>
+					<td id="texto_error" colspan="2" style=" "></td>
+				</tr>
+				<tr>
+					<td class="td_dialogo_1"><button class="boton_login" type="submit" style="">Ingresar</button></td>
+					<td class="td_dialogo_2"><button class="boton_login" type="button" style="" onClick="location.href='../sitio/'">Salir</button></td>
+				</tr>
+			</table>
+			</td>
+		</tr>
+	</table>
+</div>
+</form>
+<script language="javascript" src="js/login.js"></script>
