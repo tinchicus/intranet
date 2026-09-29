@@ -1,0 +1,344 @@
+@media only screen and (min-width: 1920px) {
+	#capa-marco-modificar-news {
+		position:absolute; 
+		left:25%; 
+		top:155; 
+		width:50%; 
+		height:10 
+	}
+	.capa_tabla_modif_01 {
+		display:table; 
+		position:relative; 
+		width:100%; 
+		height:30; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.td_tabla_modif_01 {
+		display:table-cell; 
+		width:30%; 
+		height:100%; 
+		text-align:right; 
+		vertical-align:middle; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:3px;
+	}
+	.td_tabla_modif_02 {
+		display:table-cell; 
+		width:70%; 
+		height:100%; 
+		text-align:left; 
+		vertical-align:middle; 
+		border:0px;
+		border-spacing:0px; 
+		padding:3px;
+	}
+	.capa_tabla_modif_02 {
+		display:table; 
+		position:relative; 
+		width:100%; 
+		height:300; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.td_tabla_modif_03 {
+		display:table-cell; 
+		width:30%; 
+		height:30; 
+		text-align:right; 
+		vertical-align:top; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:3px;
+	}
+	.td_tabla_modif_04 {
+		display:table-cell; 
+		width:70%; 
+		height:270; 
+		text-align:left; 
+		vertical-align:middle; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:3px;
+	}
+	.td_tabla_botones {
+		display:table-cell; 
+		width:50%; 
+		height:100%; 
+		text-align:center; 
+		vertical-align:middle; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:10px;
+	}
+	.boton_accion_mod {
+		width:150; 
+		height:100%; 
+		cursor:pointer;
+	}
+	.zona_de_texto {
+		width:70%; 
+		height:100%;
+	}
+}
+@media only screen and ((min-width: 1280px) and (max-width: 1919px)) {
+	#capa-marco-modificar-news {
+		position:absolute; 
+		left:15%; 
+		top:135; 
+		width:70%; 
+		height:10 
+	}
+	.capa_tabla_modif_01 {
+		display:table; 
+		position:relative; 
+		width:100%; 
+		height:30; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.td_tabla_modif_01 {
+		display:table-cell; 
+		width:30%; 
+		height:100%; 
+		text-align:right; 
+		vertical-align:middle; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:3px;
+	}
+	.td_tabla_modif_02 {
+		display:table-cell; 
+		width:70%; 
+		height:100%; 
+		text-align:left; 
+		vertical-align:middle; 
+		border:0px;
+		border-spacing:0px; 
+		padding:3px;
+	}
+	.capa_tabla_modif_02 {
+		display:table; 
+		position:relative; 
+		width:100%; 
+		height:250; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.td_tabla_modif_03 {
+		display:table-cell; 
+		width:30%; 
+		height:30; 
+		text-align:right; 
+		vertical-align:top; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:3px;
+	}
+	.td_tabla_modif_04 {
+		display:table-cell; 
+		width:70%; 
+		height:220; 
+		text-align:left; 
+		vertical-align:middle; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:3px;
+	}
+	.td_tabla_botones {
+		display:table-cell; 
+		width:50%; 
+		height:100%; 
+		text-align:center; 
+		vertical-align:middle; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:10px;
+	}
+	.boton_accion_mod {
+		width:150; 
+		height:100%; 
+		cursor:pointer;
+	}
+	.zona_de_texto {
+		width:70%; 
+		height:100%;
+	}
+}
+@media only screen and ((min-width: 800px) and (max-width: 1279px)) {
+	#capa-marco-modificar-news {
+		position:absolute; 
+		left:10%; 
+		top:115; 
+		width:80%; 
+		height:10 
+	}
+	.capa_tabla_modif_01 {
+		display:table; 
+		position:relative; 
+		width:100%; 
+		height:30; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.td_tabla_modif_01 {
+		display:table-cell; 
+		width:30%; 
+		height:100%; 
+		text-align:right; 
+		vertical-align:middle; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:3px;
+	}
+	.td_tabla_modif_02 {
+		display:table-cell; 
+		width:70%; 
+		height:100%; 
+		text-align:left; 
+		vertical-align:middle; 
+		border:0px;
+		border-spacing:0px; 
+		padding:3px;
+	}
+	.capa_tabla_modif_02 {
+		display:table; 
+		position:relative; 
+		width:100%; 
+		height:200; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.td_tabla_modif_03 {
+		display:table-cell; 
+		width:30%; 
+		height:30; 
+		text-align:right; 
+		vertical-align:top; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:3px;
+	}
+	.td_tabla_modif_04 {
+		display:table-cell; 
+		width:70%; 
+		height:170; 
+		text-align:left; 
+		vertical-align:middle; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:3px;
+	}
+	.td_tabla_botones {
+		display:table-cell; 
+		width:50%; 
+		height:100%; 
+		text-align:center; 
+		vertical-align:middle; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:10px;
+	}
+	.boton_accion_mod {
+		width:150; 
+		height:100%; 
+		cursor:pointer;
+	}
+	.zona_de_texto {
+		width:70%; 
+		height:100%;
+	}
+}
+@media only screen and (max-width: 799px) {
+	#capa-marco-modificar-news {
+		position:absolute; 
+		left:0; 
+		top:80; 
+		width:100%; 
+		height:10 
+	}
+	.capa_tabla_modif_01 {
+		display:table; 
+		position:relative; 
+		width:100%; 
+		height:30; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.td_tabla_modif_01 {
+		display:table-cell; 
+		width:40%; 
+		height:100%; 
+		text-align:right; 
+		vertical-align:middle; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:3px;
+	}
+	.td_tabla_modif_02 {
+		display:table-cell; 
+		width:60%; 
+		height:100%; 
+		text-align:left; 
+		vertical-align:middle; 
+		border:0px;
+		border-spacing:0px; 
+		padding:3px;
+	}
+	.capa_tabla_modif_02 {
+		display:table; 
+		position:relative; 
+		width:100%; 
+		height:250; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.td_tabla_modif_03 {
+		display:table-cell; 
+		width:40%; 
+		height:30; 
+		text-align:right; 
+		vertical-align:top; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:3px;
+	}
+	.td_tabla_modif_04 {
+		display:table-cell; 
+		width:60%; 
+		height:220; 
+		text-align:left; 
+		vertical-align:middle; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:3px;
+	}
+	.td_tabla_botones {
+		display:table-cell; 
+		width:50%; 
+		height:100%; 
+		text-align:center; 
+		vertical-align:middle; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:10px;
+	}
+	.boton_accion_mod {
+		width:100; 
+		height:100%; 
+		cursor:pointer;
+	}
+	.zona_de_texto {
+		width:95%; 
+		height:100%;
+	}
+}
