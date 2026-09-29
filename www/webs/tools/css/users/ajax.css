@@ -1,0 +1,344 @@
+@media only screen and (min-width: 1920px) {
+	.capa_marco_ajax_info {
+		position:absolute; 
+		left:5%; 
+		top:1%; 
+		width:90%; 
+		height:90%; 
+		background-color:#FFFFFF; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px; 
+		overflow-x:hidden; 
+		overflow-y:auto;
+	}
+	.capa_tabla_ajax_info {
+		display:table; 
+		width:100%; 
+		height:10;
+	}
+	.capa_celda_ajax_titulo {
+		display:table-cell; 
+		text-align:left; 
+		vertical-align:middle; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:3px; 
+		font-size:1.5em; 
+		font-weight:bold;
+	}
+	.capa_tr_ajax_info {
+		display:table-row; 
+		height:30; 
+	}
+	.capa_celda_ajax_info_01 {
+		display:table-cell; 
+		width:30%; 
+		text-align:right; 
+		vertical-align:middle; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:3px;
+	}
+	.capa_celda_ajax_info_02 {
+		display:table-cell; 
+		width:70%; 
+		text-align:left; 
+		vertical-align:middle; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:3px; 
+	}
+	.capa_celda_ajax_info_03 {
+		display:table-cell; 
+		width:30%; 
+		text-align:right; 
+		vertical-align:top; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:3px;
+	}
+	.capa_celda_ajax_info_04 {
+		display:table-cell; 
+		width:70%; 
+		text-align:left; 
+		vertical-align:top; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:3px; 
+	}
+	.capa_ajax_boton {
+		position:absolute; 
+		left:5%; 
+		top:90%; 
+		width:90%; 
+		height:7%; 
+		background-color:#FFFFFF; 
+		text-align:center; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.boton_cerrar {
+		width:200; 
+		cursor:pointer;
+	}
+}
+@media only screen and ((min-width: 1280px) and (max-width: 1919px)) {
+	.capa_marco_ajax_info {
+		position:absolute; 
+		left:3%; 
+		top:1%; 
+		width:94%; 
+		height:90%; 
+		background-color:#FFFFFF; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px; 
+		overflow-x:hidden; 
+		overflow-y:auto;
+	}
+	.capa_tabla_ajax_info {
+		display:table; 
+		width:100%; 
+		height:10;
+	}
+	.capa_celda_ajax_titulo {
+		display:table-cell; 
+		text-align:left; 
+		vertical-align:middle; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:3px; 
+		font-size:1.2em; 
+		font-weight:bold;
+	}
+	.capa_tr_ajax_info {
+		display:table-row; 
+		height:30; 
+	}
+	.capa_celda_ajax_info_01 {
+		display:table-cell; 
+		width:30%; 
+		text-align:right; 
+		vertical-align:middle; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:3px;
+	}
+	.capa_celda_ajax_info_02 {
+		display:table-cell; 
+		width:70%; 
+		text-align:left; 
+		vertical-align:middle; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:3px; 
+	}
+	.capa_celda_ajax_info_03 {
+		display:table-cell; 
+		width:30%; 
+		text-align:right; 
+		vertical-align:top; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:3px;
+	}
+	.capa_celda_ajax_info_04 {
+		display:table-cell; 
+		width:70%; 
+		text-align:left; 
+		vertical-align:top; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:3px; 
+	}
+	.capa_ajax_boton {
+		position:absolute; 
+		left:5%; 
+		top:90%; 
+		width:90%; 
+		height:7%; 
+		background-color:#FFFFFF; 
+		text-align:center; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.boton_cerrar {
+		width:200; 
+		cursor:pointer;
+	}
+}
+@media only screen and ((min-width: 800px) and (max-width: 1279px)) {
+	.capa_marco_ajax_info {
+		position:absolute; 
+		left:3%; 
+		top:1%; 
+		width:94%; 
+		height:90%; 
+		background-color:#FFFFFF; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px; 
+		overflow-x:hidden; 
+		overflow-y:auto;
+	}
+	.capa_tabla_ajax_info {
+		display:table; 
+		width:100%; 
+		height:10;
+	}
+	.capa_celda_ajax_titulo {
+		display:table-cell; 
+		text-align:left; 
+		vertical-align:middle; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:3px; 
+		font-size:1.2em; 
+		font-weight:bold;
+	}
+	.capa_tr_ajax_info {
+		display:table-row; 
+		height:30; 
+	}
+	.capa_celda_ajax_info_01 {
+		display:table-cell; 
+		width:30%; 
+		text-align:right; 
+		vertical-align:middle; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:3px;
+	}
+	.capa_celda_ajax_info_02 {
+		display:table-cell; 
+		width:70%; 
+		text-align:left; 
+		vertical-align:middle; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:3px; 
+	}
+	.capa_celda_ajax_info_03 {
+		display:table-cell; 
+		width:30%; 
+		text-align:right; 
+		vertical-align:top; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:3px;
+	}
+	.capa_celda_ajax_info_04 {
+		display:table-cell; 
+		width:70%; 
+		text-align:left; 
+		vertical-align:top; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:3px; 
+	}
+	.capa_ajax_boton {
+		position:absolute; 
+		left:5%; 
+		top:90%; 
+		width:90%; 
+		height:7%; 
+		background-color:#FFFFFF; 
+		text-align:center; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.boton_cerrar {
+		width:200; 
+		cursor:pointer;
+	}
+}
+@media only screen and (max-width: 799px) {
+	.capa_marco_ajax_info {
+		position:absolute; 
+		left:3%; 
+		top:1%; 
+		width:94%; 
+		height:90%; 
+		background-color:#FFFFFF; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px; 
+		overflow-x:hidden; 
+		overflow-y:auto;
+	}
+	.capa_tabla_ajax_info {
+		display:table; 
+		width:100%; 
+		height:10;
+	}
+	.capa_celda_ajax_titulo {
+		display:table-cell; 
+		text-align:left; 
+		vertical-align:middle; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:3px; 
+		font-size:1.1em; 
+		font-weight:bold;
+	}
+	.capa_tr_ajax_info {
+		display:table-row; 
+		height:30; 
+	}
+	.capa_celda_ajax_info_01 {
+		display:table-cell; 
+		width:30%; 
+		text-align:right; 
+		vertical-align:middle; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:3px;
+	}
+	.capa_celda_ajax_info_02 {
+		display:table-cell; 
+		width:70%; 
+		text-align:left; 
+		vertical-align:middle; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:3px; 
+	}
+	.capa_celda_ajax_info_03 {
+		display:table-cell; 
+		width:30%; 
+		text-align:right; 
+		vertical-align:top; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:3px;
+	}
+	.capa_celda_ajax_info_04 {
+		display:table-cell; 
+		width:70%; 
+		text-align:left; 
+		vertical-align:top; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:3px; 
+	}
+	.capa_ajax_boton {
+		position:absolute; 
+		left:5%; 
+		top:90%; 
+		width:90%; 
+		height:7%; 
+		background-color:#FFFFFF; 
+		text-align:center; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.boton_cerrar {
+		width:200; 
+		cursor:pointer;
+	}
+}

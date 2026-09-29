@@ -1,0 +1,301 @@
+@media only screen and (min-width: 1920px) {
+	.capa_marco_general_users {
+		position:absolute; 
+		left:25%; 
+		top:155; 
+		width:50%; 
+		height:10;
+	}
+	#boton-agregar-usuario {
+		width:200; 
+		height:100%; 
+		cursor:pointer; 
+		border-radius:10px;
+	}
+	.capa_grilla_lista_users {
+		position:relative; 
+		width:100%; 
+		display:grid; 
+		grid-template-columns: 18% 45% 16% 21%; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.capa_tabla_titulo_lista {
+		display:table; 
+		height:30; 
+		background-color:#000000; 
+		color:#FFFFFF;
+	}
+	.capa_tabla_datos_lista {
+		display:table; 
+		height:40; 
+		color:#000; 
+	}
+	.capa_celda_lista_users {
+		display:table-cell; 
+		text-align:left; 
+		vertical-align:middle; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px 0px 0px 3px; 
+	}
+	.boton_lista_user {
+		width:40; 
+		height:40; 
+		background-color:#000000; 
+		cursor:pointer; 
+	}
+	.img_boton_lista_user {
+		height:100%; 
+		border:0px; 
+	}
+	.capa_marco_acciones_gral {
+		position:fixed; 
+		z-index:999; 
+		left:0; 
+		top:0; 
+		width:100%; 
+		height:100%; 
+		display:none;
+	}
+	.capa_marco_sombra_gral {
+		position:absolute; 
+		left:0; 
+		top:0; 
+		width:100%; 
+		height:100%; 
+		background-color:#000000; 
+		opacity:0.8; 
+	}
+	#capa_titulo_01 { display:table; }
+	#capa_titulo_02 { display:table; }
+	#capa_titulo_03 { display:table; }
+	#capa_titulo_04 { display:table; }
+}
+@media only screen and ((min-width: 1280px) and (max-width: 1919px)) {
+	.capa_marco_general_users {
+		position:absolute; 
+		left:15%; 
+		top:135; 
+		width:70%; 
+		height:10;
+	}
+	#boton-agregar-usuario {
+		width:200; 
+		height:100%; 
+		cursor:pointer; 
+		border-radius:10px;
+	}
+	.capa_grilla_lista_users {
+		position:relative; 
+		width:100%; 
+		display:grid; 
+		grid-template-columns: 18% 45% 16% 21%; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.capa_tabla_titulo_lista {
+		display:table; 
+		height:30; 
+		background-color:#000000; 
+		color:#FFFFFF;
+	}
+	.capa_tabla_datos_lista {
+		display:table; 
+		height:40; 
+		color:#000; 
+	}
+	.capa_celda_lista_users {
+		display:table-cell; 
+		text-align:left; 
+		vertical-align:middle; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px 0px 0px 3px; 
+	}
+	.boton_lista_user {
+		width:40; 
+		height:40; 
+		background-color:#000000; 
+		cursor:pointer; 
+	}
+	.img_boton_lista_user {
+		height:100%; 
+		border:0px; 
+	}
+	.capa_marco_acciones_gral {
+		position:fixed; 
+		z-index:999; 
+		left:0; 
+		top:0; 
+		width:100%; 
+		height:100%; 
+		display:none;
+	}
+	.capa_marco_sombra_gral {
+		position:absolute; 
+		left:0; 
+		top:0; 
+		width:100%; 
+		height:100%; 
+		background-color:#000000; 
+		opacity:0.8;
+		overflow:hidden;
+	}
+	#capa_titulo_01 { display:table; }
+	#capa_titulo_02 { display:table; }
+	#capa_titulo_03 { display:table; }
+	#capa_titulo_04 { display:table; }
+}
+@media only screen and ((min-width: 800px) and (max-width: 1279px)) {
+	.capa_marco_general_users {
+		position:absolute; 
+		left:5%; 
+		top:115; 
+		width:90%; 
+		height:10;
+	}
+	#boton-agregar-usuario {
+		width:200; 
+		height:100%; 
+		cursor:pointer; 
+		border-radius:10px;
+	}
+	.capa_grilla_lista_users {
+		position:relative; 
+		width:100%; 
+		display:grid; 
+		grid-template-columns: 23% 51% 26%; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.capa_tabla_titulo_lista {
+		display:table; 
+		height:30; 
+		background-color:#000000; 
+		color:#FFFFFF;
+	}
+	.capa_tabla_datos_lista {
+		display:table; 
+		height:40; 
+		color:#000; 
+	}
+	.capa_celda_lista_users {
+		display:table-cell; 
+		text-align:left; 
+		vertical-align:middle; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px 0px 0px 3px; 
+	}
+	.boton_lista_user {
+		width:30; 
+		height:30; 
+		background-color:#000000; 
+		cursor:pointer; 
+	}
+	.img_boton_lista_user {
+		height:100%; 
+		border:0px; 
+	}
+	.capa_marco_acciones_gral {
+		position:fixed; 
+		z-index:999; 
+		left:0; 
+		top:0; 
+		width:100%; 
+		height:100%; 
+		display:none;
+	}
+	.capa_marco_sombra_gral {
+		position:absolute; 
+		left:0; 
+		top:0; 
+		width:100%; 
+		height:100%; 
+		background-color:#000000; 
+		opacity:0.8; 
+	}
+	#capa_titulo_01 { display:table; }
+	#capa_titulo_02 { display:table; }
+	#capa_titulo_03 { display:none; }
+	#capa_titulo_04 { display:table; }
+}
+@media only screen and (max-width: 799px) {
+	.capa_marco_general_users {
+		position:absolute; 
+		left:0; 
+		top:80; 
+		width:100%; 
+		height:10;
+	}
+	#boton-agregar-usuario {
+		width:200; 
+		height:100%; 
+		cursor:pointer; 
+		border-radius:10px;
+	}
+	.capa_grilla_lista_users {
+		position:relative; 
+		width:100%; 
+		display:grid; 
+		grid-template-columns: 60% 40%; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.capa_tabla_titulo_lista {
+		display:table; 
+		height:30; 
+		background-color:#000000; 
+		color:#FFFFFF;
+	}
+	.capa_tabla_datos_lista {
+		display:table; 
+		height:40; 
+		color:#000; 
+	}
+	.capa_celda_lista_users {
+		display:table-cell; 
+		text-align:left; 
+		vertical-align:middle; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px 0px 0px 3px; 
+	}
+	.boton_lista_user {
+		width:30; 
+		height:30; 
+		background-color:#000000; 
+		cursor:pointer; 
+	}
+	.img_boton_lista_user {
+		height:100%; 
+		border:0px; 
+	}
+	.capa_marco_acciones_gral {
+		position:fixed; 
+		z-index:999; 
+		left:0; 
+		top:0; 
+		width:100%; 
+		height:100%; 
+		display:none;
+	}
+	.capa_marco_sombra_gral {
+		position:absolute; 
+		left:0; 
+		top:0; 
+		width:100%; 
+		height:100%; 
+		background-color:#000000; 
+		opacity:0.8; 
+	}
+	#capa_titulo_01 { display:table; }
+	#capa_titulo_02 { display:none; }
+	#capa_titulo_03 { display:none; }
+	#capa_titulo_04 { display:table; }
+}
