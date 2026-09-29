@@ -1,0 +1,608 @@
+@media only screen and (min-width: 1920px) {
+	.capa_marco_videos_gral {
+		position:absolute; 
+		left:25%; 
+		top:155; 
+		width:50%; 
+		height:10; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.capa_lista_filtros {
+		position:relative; 
+		display:grid; 
+		width:100%; 
+		text-align:center; 
+		grid-template-columns: 20% 20% 20% 20% 20%; 
+		padding:3px;
+	}
+	.capa_boton_filtro {
+		height:100%; 
+		text-align:center
+	}
+	.boton_filtro {
+		width:95%; 
+		cursor:pointer;
+		border-radius:5px;
+	}
+	.capa_grilla_lista {
+		position:relative; 
+		display:grid; 
+		width:100%; 
+		text-align:center; 
+		grid-template-columns: 33% 34% 33%; 
+		padding:3px;
+	}
+	.capa_video_datos_lista {
+		height:250; 
+		text-align:center; 
+		vertical-align:middle; 
+	}
+	.capa_tabla_datos_video {
+		display:table; 
+		width:98%; 
+		height:98%; 
+		border-radius:10px; 
+		background-position:center; 
+		background-size:cover; 
+		overflow:hidden; 
+	}
+	.capa_row_datos_video {
+		display:table-row; 
+		width:100%; 
+		height:50%;
+	}
+	.capa_celda_datos_video_01 {
+		display:table-cell; 
+		width:100%; 
+	}
+	.capa_celda_datos_video_02 {
+		display:table-cell; 
+		width:100%; 
+		background-color:#000000; 
+		color:#FFFFFF; 
+		opacity:0.2; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:3px; 
+		text-align:right; 
+		vertical-align:bottom; 
+	}
+	.boton_accion_lista {
+		width:40; 
+		height:40; 
+		background-position:center; 
+		background-size:cover; 
+		border-radius:5px; 
+		cursor:pointer; 
+		border:0px; 
+		background-color:#000000; 
+	}
+	.capa_marco_acciones_gral {
+		position:fixed; 
+		left:0; 
+		top:0; 
+		width:100%; 
+		height:100%; 
+		display:none; 
+	}
+	.capa_marco_sombra_gral {
+		position:absolute; 
+		left:0; 
+		top:0; 
+		width:100%; 
+		height:100%; 
+		background-color:#000000; 
+		opacity:0.8;
+	}
+	.capa_imagen_animacion {
+		position:absolute; 
+		left:40%; 
+		top:40%; 
+		width:20%; 
+		height:20%; 
+		text-align:center;		
+	}
+	.img_load {
+		border:0; 
+		height:100%; 
+	}	
+	.capa_tabla_dialogo_elim {
+		position:absolute; 
+		left:35%; 
+		top:40%; 
+		width:30%; 
+		height:20%; 
+		display:table; 
+		background-color:#FFFFFF; 
+		border:1px solid black; 
+		border-spacing:0px; 
+		padding:0px; 
+		border-radius:10px;
+	}
+	.capa_row_dialogo_elim {
+		display:table-row; 
+		height:50%;
+	}
+	.capa_celda_dialogo_elim {
+		display:table-cell; 
+		width:100%; 
+		text-align:center; 
+		vertical-align:middle; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:5px;
+	}
+	.boton_elim_dato {
+		width:100; 
+		cursor:pointer; 
+	}
+	.capa_ajax_ver_cont {
+		position:absolute; 
+		left:65%; 
+		top:10%; 
+		width:30%; 
+		height:70%; 
+		background-color:#FFF; 
+		border-radius:20px; 
+		border:1px solid black; 
+		border-spacing:0px; padding:0px;
+	}
+}
+@media only screen and ((min-width: 1280px) and (max-width: 1919px)) {
+	.capa_marco_videos_gral {
+		position:absolute; 
+		left:15%; 
+		top:135; 
+		width:70%; 
+		height:10; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.capa_lista_filtros {
+		position:relative; 
+		display:grid; 
+		width:100%; 
+		text-align:center; 
+		grid-template-columns: 20% 20% 20% 20% 20%; 
+		padding:3px;
+	}
+	.capa_boton_filtro {
+		height:100%; 
+		text-align:center
+	}
+	.boton_filtro {
+		width:95%; 
+		cursor:pointer;
+		border-radius:5px;
+	}
+	.capa_grilla_lista {
+		position:relative; 
+		display:grid; 
+		width:100%; 
+		text-align:center; 
+		grid-template-columns: 33% 34% 33%; 
+		padding:3px;
+	}
+	.capa_video_datos_lista {
+		height:250; 
+		text-align:center; 
+		vertical-align:middle; 
+	}
+	.capa_tabla_datos_video {
+		display:table; 
+		width:98%; 
+		height:98%; 
+		border-radius:10px; 
+		background-position:center; 
+		background-size:cover; 
+		overflow:hidden; 
+	}
+	.capa_row_datos_video {
+		display:table-row; 
+		width:100%; 
+		height:50%;
+	}
+	.capa_celda_datos_video_01 {
+		display:table-cell; 
+		width:100%; 
+	}
+	.capa_celda_datos_video_02 {
+		display:table-cell; 
+		width:100%; 
+		background-color:#000000; 
+		color:#FFFFFF; 
+		opacity:0.2; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:3px; 
+		text-align:right; 
+		vertical-align:bottom; 
+	}
+	.boton_accion_lista {
+		width:40; 
+		height:40; 
+		background-position:center; 
+		background-size:cover; 
+		border-radius:5px; 
+		cursor:pointer; 
+		border:0px; 
+		background-color:#000000; 
+	}
+	.capa_marco_acciones_gral {
+		position:fixed; 
+		left:0; 
+		top:0; 
+		width:100%; 
+		height:100%; 
+		display:none; 
+	}
+	.capa_marco_sombra_gral {
+		position:absolute; 
+		left:0; 
+		top:0; 
+		width:100%; 
+		height:100%; 
+		background-color:#000000; 
+		opacity:0.8;
+	}
+	.capa_imagen_animacion {
+		position:absolute; 
+		left:40%; 
+		top:40%; 
+		width:20%; 
+		height:20%; 
+		text-align:center;		
+	}
+	.img_load {
+		border:0; 
+		height:100%; 
+	}	
+	.capa_tabla_dialogo_elim {
+		position:absolute; 
+		left:27%; 
+		top:37%; 
+		width:45%; 
+		height:25%; 
+		display:table; 
+		background-color:#FFFFFF; 
+		border:1px solid black; 
+		border-spacing:0px; 
+		padding:0px; 
+		border-radius:10px;
+	}
+	.capa_row_dialogo_elim {
+		display:table-row; 
+		height:50%;
+	}
+	.capa_celda_dialogo_elim {
+		display:table-cell; 
+		width:100%; 
+		text-align:center; 
+		vertical-align:middle; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:5px;
+	}
+	.boton_elim_dato {
+		width:100; 
+		cursor:pointer; 
+	}
+	.capa_ajax_ver_cont {
+		position:absolute; 
+		left:55%; 
+		top:10%; 
+		width:40%; 
+		height:70%; 
+		background-color:#FFF; 
+		border-radius:20px; 
+		border:1px solid black; 
+		border-spacing:0px; padding:0px;
+	}
+}
+@media only screen and ((min-width: 800px) and (max-width: 1279px)) {
+	.capa_marco_videos_gral {
+		position:absolute; 
+		left:10%; 
+		top:115; 
+		width:80%; 
+		height:10; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.capa_lista_filtros {
+		position:relative; 
+		display:grid; 
+		width:100%; 
+		text-align:center; 
+		grid-template-columns: 20% 20% 20% 20% 20%; 
+		padding:3px;
+	}
+	.capa_boton_filtro {
+		height:100%; 
+		text-align:center
+	}
+	.boton_filtro {
+		width:95%; 
+		cursor:pointer;
+		border-radius:5px;
+	}
+	.capa_grilla_lista {
+		position:relative; 
+		display:grid; 
+		width:100%; 
+		text-align:center; 
+		grid-template-columns: 50% 50%; 
+		padding:3px;
+	}
+	.capa_video_datos_lista {
+		height:250; 
+		text-align:center; 
+		vertical-align:middle; 
+	}
+	.capa_tabla_datos_video {
+		display:table; 
+		width:98%; 
+		height:98%; 
+		border-radius:10px; 
+		background-position:center; 
+		background-size:cover; 
+		overflow:hidden; 
+	}
+	.capa_row_datos_video {
+		display:table-row; 
+		width:100%; 
+		height:50%;
+	}
+	.capa_celda_datos_video_01 {
+		display:table-cell; 
+		width:100%; 
+	}
+	.capa_celda_datos_video_02 {
+		display:table-cell; 
+		width:100%; 
+		background-color:#000000; 
+		color:#FFFFFF; 
+		opacity:0.2; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:3px; 
+		text-align:right; 
+		vertical-align:bottom; 
+	}
+	.boton_accion_lista {
+		width:40; 
+		height:40; 
+		background-position:center; 
+		background-size:cover; 
+		border-radius:5px; 
+		cursor:pointer; 
+		border:0px; 
+		background-color:#000000; 
+	}
+	.capa_marco_acciones_gral {
+		position:fixed; 
+		left:0; 
+		top:0; 
+		width:100%; 
+		height:100%; 
+		display:none; 
+	}
+	.capa_marco_sombra_gral {
+		position:absolute; 
+		left:0; 
+		top:0; 
+		width:100%; 
+		height:100%; 
+		background-color:#000000; 
+		opacity:0.8;
+	}
+	.capa_imagen_animacion {
+		position:absolute; 
+		left:40%; 
+		top:40%; 
+		width:20%; 
+		height:20%; 
+		text-align:center;		
+	}
+	.img_load {
+		border:0; 
+		height:100%; 
+	}	
+	.capa_tabla_dialogo_elim {
+		position:absolute; 
+		left:20%; 
+		top:35%; 
+		width:60%; 
+		height:30%; 
+		display:table; 
+		background-color:#FFFFFF; 
+		border:1px solid black; 
+		border-spacing:0px; 
+		padding:0px; 
+		border-radius:10px;
+	}
+	.capa_row_dialogo_elim {
+		display:table-row; 
+		height:50%;
+	}
+	.capa_celda_dialogo_elim {
+		display:table-cell; 
+		width:100%; 
+		text-align:center; 
+		vertical-align:middle; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:5px;
+	}
+	.boton_elim_dato {
+		width:100; 
+		cursor:pointer; 
+	}
+	.capa_ajax_ver_cont {
+		position:absolute; 
+		left:35%; 
+		top:10%; 
+		width:50%; 
+		height:70%; 
+		background-color:#FFF; 
+		border-radius:20px; 
+		border:1px solid black; 
+		border-spacing:0px; padding:0px;
+	}
+}
+@media only screen and (max-width: 799px) {
+	.capa_marco_videos_gral {
+		position:absolute; 
+		left:0; 
+		top:80; 
+		width:100%; 
+		height:10; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.capa_lista_filtros {
+		position:relative; 
+		display:grid; 
+		width:100%; 
+		text-align:center; 
+		grid-template-columns: 33% 33% 33%; 
+		padding:0px;
+	}
+	.capa_boton_filtro {
+		height:100%; 
+		text-align:center
+	}
+	.boton_filtro {
+		width:95%; 
+		cursor:pointer;
+		border-radius:5px;
+	}
+	.capa_grilla_lista {
+		position:relative; 
+		display:grid; 
+		width:100%; 
+		text-align:center; 
+		grid-template-columns: 100%; 
+		padding:0px;
+	}
+	.capa_video_datos_lista {
+		height:250; 
+		text-align:center; 
+		vertical-align:middle; 
+	}
+	.capa_tabla_datos_video {
+		display:table; 
+		width:98%; 
+		height:98%; 
+		border-radius:10px; 
+		background-position:center; 
+		background-size:cover; 
+		overflow:hidden; 
+	}
+	.capa_row_datos_video {
+		display:table-row; 
+		width:100%; 
+		height:50%;
+	}
+	.capa_celda_datos_video_01 {
+		display:table-cell; 
+		width:100%; 
+	}
+	.capa_celda_datos_video_02 {
+		display:table-cell; 
+		width:100%; 
+		background-color:#000000; 
+		color:#FFFFFF; 
+		opacity:0.8; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:3px; 
+		text-align:right; 
+		vertical-align:bottom; 
+	}
+	.boton_accion_lista {
+		width:40; 
+		height:40; 
+		background-position:center; 
+		background-size:cover; 
+		border-radius:5px; 
+		cursor:pointer; 
+		border:0px; 
+		background-color:#000000; 
+	}
+	.capa_marco_acciones_gral {
+		position:fixed; 
+		left:0; 
+		top:0; 
+		width:100%; 
+		height:100%; 
+		display:none; 
+	}
+	.capa_marco_sombra_gral {
+		position:absolute; 
+		left:0; 
+		top:0; 
+		width:100%; 
+		height:100%; 
+		background-color:#000000; 
+		opacity:0.8;
+	}
+	.capa_imagen_animacion {
+		position:absolute; 
+		left:40%; 
+		top:40%; 
+		width:20%; 
+		height:20%; 
+		text-align:center;		
+	}
+	.img_load {
+		border:0; 
+		height:100%; 
+	}	
+	.capa_tabla_dialogo_elim {
+		position:absolute; 
+		left:5%; 
+		top:32%; 
+		width:90%; 
+		height:35%; 
+		display:table; 
+		background-color:#FFFFFF; 
+		border:1px solid black; 
+		border-spacing:0px; 
+		padding:0px; 
+		border-radius:10px;
+	}
+	.capa_row_dialogo_elim {
+		display:table-row; 
+		height:50%;
+	}
+	.capa_celda_dialogo_elim {
+		display:table-cell; 
+		width:100%; 
+		text-align:center; 
+		vertical-align:middle; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:5px;
+	}
+	.boton_elim_dato {
+		width:100; 
+		cursor:pointer; 
+	}
+	.capa_ajax_ver_cont {
+		position:absolute; 
+		left:5%; 
+		top:10%; 
+		width:90%; 
+		height:80%; 
+		background-color:#FFF; 
+		border-radius:20px; 
+		border:1px solid black; 
+		border-spacing:0px; padding:0px;
+	}
+}
