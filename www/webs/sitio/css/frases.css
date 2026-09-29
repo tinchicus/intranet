@@ -1,0 +1,295 @@
+@media only screen and (min-width: 1920px) {
+	.capa_marco_frases_sitio {
+		position:absolute; 
+		left:25%; 
+		width:50%; 
+		top:35; 
+		height:300; 
+		background-color:#fff; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.capa_imagen_autor_frase {
+		position:absolute; 
+		left:1%; 
+		top:2%; 
+		width:28%; 
+		height:96%; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px; 
+		border-radius:10px; 
+		background-position:center; 
+		background-size:cover;
+	}
+	.capa_tabla_texto_frase {
+		position:absolute; 
+		display:table; 
+		left:30%; 
+		top:1%; 
+		width:69%; 
+		height:98%; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px; 
+		background-color:#FFF;
+	}
+	.capa_row_texto_frase {
+		display:table-row; 
+		height:90%; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px; 
+	}
+	.capa_celda_texto_frase {
+		display:table-cell; 
+		width:100%; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px; 
+		text-align:center; 
+		vertical-align:middle; 
+		font-size:1.4em;
+	}
+	.capa_row_autor_frase {
+		display:table-row; 
+		height:10%; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.capa_celda_autor_frase {
+		display:table-cell; 
+		width:100%; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px; 
+		text-align:right; 
+		vertical-align:middle; 
+		font-size:1.5em; 
+		font-weight:bold; 
+	}
+}
+@media only screen and ((min-width: 1280px) and (max-width: 1919px)) {
+	.capa_marco_frases_sitio {
+		position:absolute; 
+		left:15%; 
+		width:70%; 
+		top:35; 
+		height:300; 
+		background-color:#fff; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.capa_imagen_autor_frase {
+		position:absolute; 
+		left:1%; 
+		top:2%; 
+		width:28%; 
+		height:96%; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px; 
+		border-radius:10px; 
+		background-position:center; 
+		background-size:cover;
+	}
+	.capa_tabla_texto_frase {
+		position:absolute; 
+		display:table; 
+		left:30%; 
+		top:1%; 
+		width:69%; 
+		height:98%; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px; 
+		background-color:#FFF;
+	}
+	.capa_row_texto_frase {
+		display:table-row; 
+		height:90%; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px; 
+	}
+	.capa_celda_texto_frase {
+		display:table-cell; 
+		width:100%; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px; 
+		text-align:center; 
+		vertical-align:middle; 
+		font-size:1.2em;
+	}
+	.capa_row_autor_frase {
+		display:table-row; 
+		height:10%; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.capa_celda_autor_frase {
+		display:table-cell; 
+		width:100%; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px; 
+		text-align:right; 
+		vertical-align:middle; 
+		font-size:1.3em; 
+		font-weight:bold; 
+	}
+}
+@media only screen and ((min-width: 800px) and (max-width: 1279px)) {
+	.capa_marco_frases_sitio {
+		position:absolute; 
+		left:5%; 
+		width:90%; 
+		top:35; 
+		height:250; 
+		background-color:#fff; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.capa_imagen_autor_frase {
+		position:absolute; 
+		left:1%; 
+		top:2%; 
+		width:28%; 
+		height:96%; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px; 
+		border-radius:10px; 
+		background-position:center; 
+		background-size:cover;
+	}
+	.capa_tabla_texto_frase {
+		position:absolute; 
+		display:table; 
+		left:30%; 
+		top:1%; 
+		width:69%; 
+		height:98%; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px; 
+		background-color:#FFF;
+	}
+	.capa_row_texto_frase {
+		display:table-row; 
+		height:90%; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px; 
+	}
+	.capa_celda_texto_frase {
+		display:table-cell; 
+		width:100%; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px; 
+		text-align:center; 
+		vertical-align:middle; 
+		font-size:1.1em;
+	}
+	.capa_row_autor_frase {
+		display:table-row; 
+		height:10%; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.capa_celda_autor_frase {
+		display:table-cell; 
+		width:100%; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px; 
+		text-align:right; 
+		vertical-align:middle; 
+		font-size:1.2em; 
+		font-weight:bold; 
+	}
+}
+@media only screen and (max-width: 799px) {
+	.capa_marco_frases_sitio {
+		position:absolute; 
+		left:0; 
+		width:100%; 
+		top:0; 
+		height:300; 
+		background-color:#fff; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.capa_imagen_autor_frase {
+		position:absolute; 
+		left:1%; 
+		top:1%; 
+		width:98%; 
+		height:99%; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px; 
+		border-radius:10px; 
+		background-position:center; 
+		background-size:cover;
+	}
+	.capa_tabla_texto_frase {
+		position:absolute; 
+		display:table; 
+		left:1%; 
+		top:55%; 
+		width:98%; 
+		height:45%; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px; 
+	}
+	.capa_row_texto_frase {
+		display:table-row; 
+		height:90%; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px; 
+	}
+	.capa_celda_texto_frase {
+		display:table-cell; 
+		width:100%; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px; 
+		text-align:center; 
+		vertical-align:bottom; 
+		font-size:1.1em;
+		color:#FFFFFF;
+		background-image:linear-gradient(to bottom,rgba(0,0,0,0),rgba(0,0,0,1)); 
+	}
+	.capa_row_autor_frase {
+		display:table-row; 
+		height:10%; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.capa_celda_autor_frase {
+		display:table-cell; 
+		width:100%; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px; 
+		text-align:right; 
+		vertical-align:middle; 
+		font-size:1.2em; 
+		font-weight:bold;
+		color:#FFFFFF;
+		background-color:#000000;
+	}
+}
