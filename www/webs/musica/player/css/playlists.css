@@ -1,0 +1,268 @@
+@media only screen and (min-width: 1920px) {
+	.capa_marco_add_playlist {
+		position:fixed; 
+		left:0; 
+		display:none;
+		z-index:1001;
+		top:0; 
+		width:100%; 
+		height:100%; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.capa_sombra_add_playlist {
+		position:absolute; 
+		left:0; 
+		top:0; 
+		width:100%; 
+		height:100%; 
+		background-color:#000000; 
+		opacity:0.8; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.capa_dialogo_add_playlist {
+		position:absolute; 
+		left:35%; 
+		top:40%; 
+		width:30%; 
+		height:20%; 
+		background-color:#FFFFFF; 
+		border:1px solid black; 
+		border-spacing:0px; 
+		padding:0px; 
+		border-radius:10px; 
+		overflow:hidden;
+	}
+	.tabla_dialogo_add_playlist {
+		display:table; 
+		width:100%; 
+		height:100%;
+	}
+	.row_dialogo_add_playlist_01 {
+		display:table-row; 
+		height:70%;
+	}
+	.row_dialogo_add_playlist_02 {
+		display:table-row; 
+		height:30%;
+	}
+	.celda_dialogo_add_playlist {
+		display:table-cell; 
+		width:100%; 
+		text-align:center; 
+		vertical-align:middle; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.boton_control_pl_player {
+		width:150; 
+		height:30; 
+		border-radius:5px; 
+		cursor:pointer;
+	}
+}
+@media only screen and ((min-width: 1280px) and (max-width: 1919px)) {
+	.capa_marco_add_playlist {
+		position:fixed; 
+		left:0; 
+		display:none;
+		z-index:1001;
+		top:0; 
+		width:100%; 
+		height:100%; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.capa_sombra_add_playlist {
+		position:absolute; 
+		left:0; 
+		top:0; 
+		width:100%; 
+		height:100%; 
+		background-color:#000000; 
+		opacity:0.8; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.capa_dialogo_add_playlist {
+		position:absolute; 
+		left:27.5%; 
+		top:35%; 
+		width:45%; 
+		height:30%; 
+		background-color:#FFFFFF; 
+		border:1px solid black; 
+		border-spacing:0px; 
+		padding:0px; 
+		border-radius:10px; 
+		overflow:hidden;
+	}
+	.tabla_dialogo_add_playlist {
+		display:table; 
+		width:100%; 
+		height:100%;
+	}
+	.row_dialogo_add_playlist_01 {
+		display:table-row; 
+		height:70%;
+	}
+	.row_dialogo_add_playlist_02 {
+		display:table-row; 
+		height:30%;
+	}
+	.celda_dialogo_add_playlist {
+		display:table-cell; 
+		width:100%; 
+		text-align:center; 
+		vertical-align:middle; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.boton_control_pl_player {
+		width:150; 
+		height:30; 
+		border-radius:5px; 
+		cursor:pointer;
+	}
+}
+@media only screen and ((min-width: 800px) and (max-width: 1279px)) {
+	.capa_marco_add_playlist {
+		position:fixed; 
+		left:0; 
+		display:none;
+		z-index:1001;
+		top:0; 
+		width:100%; 
+		height:100%; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.capa_sombra_add_playlist {
+		position:absolute; 
+		left:0; 
+		top:0; 
+		width:100%; 
+		height:100%; 
+		background-color:#000000; 
+		opacity:0.8; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.capa_dialogo_add_playlist {
+		position:absolute; 
+		left:15%; 
+		top:35%; 
+		width:70%; 
+		height:30%; 
+		background-color:#FFFFFF; 
+		border:1px solid black; 
+		border-spacing:0px; 
+		padding:0px; 
+		border-radius:10px; 
+		overflow:hidden;
+	}
+	.tabla_dialogo_add_playlist {
+		display:table; 
+		width:100%; 
+		height:100%;
+	}
+	.row_dialogo_add_playlist_01 {
+		display:table-row; 
+		height:70%;
+	}
+	.row_dialogo_add_playlist_02 {
+		display:table-row; 
+		height:30%;
+	}
+	.celda_dialogo_add_playlist {
+		display:table-cell; 
+		width:100%; 
+		text-align:center; 
+		vertical-align:middle; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.boton_control_pl_player {
+		width:150; 
+		height:30; 
+		border-radius:5px; 
+		cursor:pointer;
+	}
+}
+@media only screen and (max-width: 799px) {
+	.capa_marco_add_playlist {
+		position:fixed; 
+		left:0; 
+		display:none;
+		z-index:1001;
+		top:0; 
+		width:100%; 
+		height:100%; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.capa_sombra_add_playlist {
+		position:absolute; 
+		left:0; 
+		top:0; 
+		width:100%; 
+		height:100%; 
+		background-color:#000000; 
+		opacity:0.8; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.capa_dialogo_add_playlist {
+		position:absolute; 
+		left:1%; 
+		top:35%; 
+		width:98%; 
+		height:30%; 
+		background-color:#FFFFFF; 
+		border:1px solid black; 
+		border-spacing:0px; 
+		padding:0px; 
+		border-radius:10px; 
+		overflow:hidden;
+	}
+	.tabla_dialogo_add_playlist {
+		display:table; 
+		width:100%; 
+		height:100%;
+	}
+	.row_dialogo_add_playlist_01 {
+		display:table-row; 
+		height:70%;
+	}
+	.row_dialogo_add_playlist_02 {
+		display:table-row; 
+		height:30%;
+	}
+	.celda_dialogo_add_playlist {
+		display:table-cell; 
+		width:100%; 
+		text-align:center; 
+		vertical-align:middle; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.boton_control_pl_player {
+		width:150; 
+		height:30; 
+		border-radius:5px; 
+		cursor:pointer;
+	}
+}
