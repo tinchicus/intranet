@@ -6,3 +6,15 @@ Esta es una intranet básica donde mostraremos frases, novedades, ver videos med
 
 Este código se puede implementar en cualquier ordenador pero esta pensado para un Linux, aunque con muy pocas modificaciones se puede adaptar a Windows, basado en Debian pero se puede usar cualquier distro. Se deben crear unos directorios, establecer unos permisos, instalar unas herramientas básicas y configurarlas. La idea de este archivo es comentarte todos los pasos necesarios para impplementalo de una manera sencilla, sin más comencemos.
 
+Lo primero que haremos es instalar laa herramientas necesarias, para ello debemos ejecutar lo siguiente:
+
+$ sudo apt-get install mariadb-server mariadb-client mariadb-common -y
+$ sudo apt-get install apache2 -y
+$ sudo apt-get install php php-pear php-mysql -y
+$ sudo apt-get install ffmpeg -y
+
+Aqui instalaremos la basse de datos, el servidor web, el lenguaje en el servidor y la conversora de audio. Lo siguiente es crear los directorios donde almacenaremos todo; para ello en el raíz deben crear un directorio llamado www, otro musica y otro videos. El primero será para el servidor en si, los siguientes son para contener los archivos de música y videos respectivamente. En el directorio www deben copiar a webs e index.html tal comoo esta en el repositorio, todo esto deben hacerlo con su o sudo, y con esto tener el servidor ya copiado. En musica deben crear dos sub-directorios llamados pics y temporal, el primero es para almacenar imagenes de los discos o canciones y el segundo es el encargado de recodificar los archivos que suban; en videos solo deben crear un sub-directorio llamado pics para las imagenes. Lo siguiente es modificar los permisos en estos directorios, les paso un ejemplo:
+
+$ sudo chown -R www-data:www-data /www
+$ sudo chown -R u=rwx,g=rx,o=rx /www
+
