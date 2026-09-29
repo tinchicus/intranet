@@ -1,0 +1,204 @@
+@media only screen and (min-width: 1920px) {
+	.capa_marco_filtros_musica {
+		position:fixed; 
+		z-index:990; 
+		left:10%; 
+		top:-100%; 
+		width:80%; 
+		height:90%; 
+		background-color:#000000; 
+		border-radius:0px 0px 30px 30px; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.capa_grilla_boton_filtro1 {
+		position:relative; 
+		display:grid; 
+		width:100%; 
+		height:15%;
+		grid-template-columns: 14.28% 14.28% 14.28% 14.28% 14.28% 14.28% 14.28%;
+	}
+	.boton_filtro_musica {
+		height:100%; 
+		background-color:#000000; 
+		color:#FFFFFF; 
+		font-size:1.4em; 
+		border:0px; 
+		cursor:pointer;
+	}
+	.capa_lista_filtro2_musica {
+		position:relative; 
+		width:100%; 
+		height:75%; 
+		overflow-x:hidden; 
+		overflow-y:auto;
+	}
+	.capa_grilla_filtro2_musica {
+		display:none; 
+		width:100%; 
+		height:10;
+		grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+	}
+	.boton_gral_filtro2_musica {
+		height:40; 
+		background-color:#000000; 
+		color:#FFFFFF; 
+		font-size:1.4em; 
+		border:0px; 
+		cursor:pointer; 
+	}
+}
+@media only screen and ((min-width: 1280px) and (max-width: 1919px)) {
+	.capa_marco_filtros_musica {
+		position:fixed; 
+		z-index:990; 
+		left:7.5%; 
+		top:-100%; 
+		width:85%; 
+		height:90%; 
+		background-color:#000000; 
+		border-radius:0px 0px 30px 30px; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.capa_grilla_boton_filtro1 {
+		position:relative; 
+		display:grid; 
+		width:100%; 
+		height:15%;
+		grid-template-columns: 20% 20% 20% 20% 20%;
+	}
+	.boton_filtro_musica {
+		height:100%; 
+		background-color:#000000; 
+		color:#FFFFFF; 
+		font-size:1.3em; 
+		border:0px; 
+		cursor:pointer;
+	}
+	.capa_lista_filtro2_musica {
+		position:relative; 
+		width:100%; 
+		height:75%; 
+		overflow-x:hidden; 
+		overflow-y:auto;
+	}
+	.capa_grilla_filtro2_musica {
+		display:none; 
+		width:100%; 
+		height:10;
+		grid-template-columns: 20% 20% 20% 20% 20%;
+	}
+	.boton_gral_filtro2_musica {
+		height:40; 
+		background-color:#000000; 
+		color:#FFFFFF; 
+		font-size:1.2em; 
+		border:0px; 
+		cursor:pointer; 
+	}
+}
+@media only screen and ((min-width: 800px) and (max-width: 1279px)) {
+	.capa_marco_filtros_musica {
+		position:fixed; 
+		z-index:990; 
+		left:5%; 
+		top:-100%; 
+		width:90%; 
+		height:90%; 
+		background-color:#000000; 
+		border-radius:0px 0px 30px 30px; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.capa_grilla_boton_filtro1 {
+		position:relative; 
+		display:grid; 
+		width:100%; 
+		height:15%;
+		grid-template-columns: 25% 25% 25% 25%;
+	}
+	.boton_filtro_musica {
+		height:100%; 
+		background-color:#000000; 
+		color:#FFFFFF; 
+		font-size:1.2em; 
+		border:0px; 
+		cursor:pointer;
+	}
+	.capa_lista_filtro2_musica {
+		position:relative; 
+		width:100%; 
+		height:75%; 
+		overflow-x:hidden; 
+		overflow-y:auto;
+	}
+	.capa_grilla_filtro2_musica {
+		display:none; 
+		width:100%; 
+		height:10;
+		grid-template-columns: 20% 20% 20% 20% 20%;
+	}
+	.boton_gral_filtro2_musica {
+		height:40; 
+		background-color:#000000; 
+		color:#FFFFFF; 
+		font-size:1em; 
+		border:0px; 
+		cursor:pointer; 
+	}
+}
+@media only screen and (max-width: 799px) {
+	.capa_marco_filtros_musica {
+		position:fixed; 
+		z-index:990; 
+		left:5%; 
+		top:-100%; 
+		width:90%; 
+		height:90%; 
+		background-color:#000000; 
+		border-radius:0px 0px 30px 30px; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.capa_grilla_boton_filtro1 {
+		position:relative; 
+		display:grid; 
+		width:100%; 
+		height:50%;
+		grid-template-columns: 50% 50%;
+	}
+	.boton_filtro_musica {
+		height:100%; 
+		background-color:#000000; 
+		color:#FFFFFF; 
+		font-size:1.1em; 
+		border:0px; 
+		cursor:pointer;
+	}
+	.capa_lista_filtro2_musica {
+		position:relative; 
+		width:100%; 
+		height:50%; 
+		overflow-x:hidden; 
+		overflow-y:auto;
+	}
+	.capa_grilla_filtro2_musica {
+		display:none; 
+		width:100%; 
+		height:10;
+		grid-template-columns: 50% 50%;
+	}
+	.boton_gral_filtro2_musica {
+		height:40; 
+		background-color:#000000; 
+		color:#FFFFFF; 
+		font-size:1em; 
+		border:0px; 
+		cursor:pointer; 
+	}
+}
