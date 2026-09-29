@@ -1,0 +1,264 @@
+@media only screen and (min-width: 1920px) {
+	#capa-marco-modif-frase {
+		position:absolute; 
+		display:none; 
+		z-index:100; 
+		top:155; 
+		left:25%; 
+		width:50%; 
+		height:10;
+	}
+	#capa-ajax-modif-frase {
+		position:absolute; 
+		left:0; 
+		top:0; 
+		width:100%; 
+		height:10;
+	}
+	.capa_modif_01 {
+		position:relative; 
+		width:100%; 
+		height:130; 
+	}
+	.tabla_modif {
+		width:100%; 
+		height:100%; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.td_modif_01 {
+		width:50%; 
+		text-align:right; 
+		vertical-align:top; 
+		padding:3px;
+	}
+	.td_modif_02 {
+		width:50%; 
+		text-align:left; 
+		vertical-align:middle; 
+		padding:3px;
+	}
+	#texto_m {
+		height:100; 
+		width:70%;
+	}
+	#capa-nuevo-autor-modif {
+		position:relative; 
+		width:100%; 
+		height:120; 
+		display:none;
+	}
+	#capa-nuevo-pais-modif {
+		position:relative; 
+		width:100%; 
+		height:30; 
+		display:none;
+	}
+	.capa_modif_02 {
+		position:relative; 
+		width:100%; 
+		height:30;
+	}
+	.boton_accion_mod {
+		cursor:pointer;
+	}
+}
+@media only screen and ((min-width: 1280px) and (max-width: 1919px)) {
+	#capa-marco-modif-frase {
+		position:absolute; 
+		display:none; 
+		z-index:100; 
+		top:135; 
+		left:20%; 
+		width:60%; 
+		height:10;
+	}
+	#capa-ajax-modif-frase {
+		position:absolute; 
+		left:0; 
+		top:0; 
+		width:100%; 
+		height:10;
+	}
+	.capa_modif_01 {
+		position:relative; 
+		width:100%; 
+		height:130; 
+	}
+	.tabla_modif {
+		width:100%; 
+		height:100%; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.td_modif_01 {
+		width:50%; 
+		text-align:right; 
+		vertical-align:top; 
+		padding:3px;
+	}
+	.td_modif_02 {
+		width:50%; 
+		text-align:left; 
+		vertical-align:middle; 
+		padding:3px;
+	}
+	#texto_m {
+		height:100; 
+		width:70%;
+	}
+	#capa-nuevo-autor-modif {
+		position:relative; 
+		width:100%; 
+		height:120; 
+		display:none;
+	}
+	#capa-nuevo-pais-modif {
+		position:relative; 
+		width:100%; 
+		height:30; 
+		display:none;
+	}
+	.capa_modif_02 {
+		position:relative; 
+		width:100%; 
+		height:30;
+	}
+	.boton_accion_mod {
+		cursor:pointer;
+	}
+}
+@media only screen and ((min-width: 800px) and (max-width: 1279px)) {
+	#capa-marco-modif-frase {
+		position:absolute; 
+		display:none; 
+		z-index:100; 
+		top:115; 
+		left:10%; 
+		width:80%; 
+		height:10;
+	}
+	#capa-ajax-modif-frase {
+		position:absolute; 
+		left:0; 
+		top:0; 
+		width:100%; 
+		height:10;
+	}
+	.capa_modif_01 {
+		position:relative; 
+		width:100%; 
+		height:130; 
+	}
+	.tabla_modif {
+		width:100%; 
+		height:100%; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.td_modif_01 {
+		width:50%; 
+		text-align:right; 
+		vertical-align:top; 
+		padding:3px;
+	}
+	.td_modif_02 {
+		width:50%; 
+		text-align:left; 
+		vertical-align:middle; 
+		padding:3px;
+	}
+	#texto_m {
+		height:100; 
+		width:70%;
+	}
+	#capa-nuevo-autor-modif {
+		position:relative; 
+		width:100%; 
+		height:120; 
+		display:none;
+	}
+	#capa-nuevo-pais-modif {
+		position:relative; 
+		width:100%; 
+		height:30; 
+		display:none;
+	}
+	.capa_modif_02 {
+		position:relative; 
+		width:100%; 
+		height:30;
+	}
+	.boton_accion_mod {
+		cursor:pointer;
+	}
+}
+@media only screen and (max-width: 799px) {
+	#capa-marco-modif-frase {
+		position:absolute; 
+		display:none; 
+		z-index:100; 
+		top:80; 
+		left:5%; 
+		width:90%; 
+		height:10;
+	}
+	#capa-ajax-modif-frase {
+		position:absolute; 
+		left:0; 
+		top:0; 
+		width:100%; 
+		height:10;
+	}
+	.capa_modif_01 {
+		position:relative; 
+		width:100%; 
+		height:130; 
+	}
+	.tabla_modif {
+		width:100%; 
+		height:100%; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.td_modif_01 {
+		width:50%; 
+		text-align:right; 
+		vertical-align:top; 
+		padding:3px;
+	}
+	.td_modif_02 {
+		width:50%; 
+		text-align:left; 
+		vertical-align:middle; 
+		padding:3px;
+	}
+	#texto_m {
+		height:100; 
+		width:70%;
+	}
+	#capa-nuevo-autor-modif {
+		position:relative; 
+		width:100%; 
+		height:120; 
+		display:none;
+	}
+	#capa-nuevo-pais-modif {
+		position:relative; 
+		width:100%; 
+		height:30; 
+		display:none;
+	}
+	.capa_modif_02 {
+		position:relative; 
+		width:100%; 
+		height:30;
+	}
+	.boton_accion_mod {
+		cursor:pointer;
+	}
+}
