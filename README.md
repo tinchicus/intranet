@@ -1,2 +1,8 @@
 # intranet
-Proyecto para crear tu propia intranet en una red local
+Este proyecto es para crear tu propia intranet en una red local. Este nació como un proyecto personal para escuchar mi música y ver videos desde un servidor mediante un navegador y por culpa de un desperfecto técnico.
+Como dije nació como un proyecto personal que no pensaba compartir pero visto y considerando todo lo q sucede (o sucederá) con lo físico y luego la eliminación de las peliculas por Sony. También situaciones como la desaparición de peliculas de sitios de streaming, todo eso me llevó a completarlo en un 100% y compartirlo.
+
+Esta es una intranet básica donde mostraremos frases, novedades, ver videos mediante streaming, escuchar música y herramientas para administrar todo esto. Los videos por el momento les recomiendo codificarlos mediane Handbrake para no solo convertirlo en MP4 sino agregar la opción de Optimización Web para mejorar la reproducción. En cambio, vas a poder subir cualquier formato de audio y el sitio lo convierte a formato mp3 de 160 kbps; decidí hacerlo así para una mayor compatibilidad con los navegadores y otro proyecto que comentaré en otro momento. En breve, armaré un instructivo en mi blog no solo para instalarlo correctamente sino que explicaré el código y las distintas decisiones que he tomado.
+
+Este código se puede implementar en cualquier ordenador pero esta pensado para un Linux, aunque con muy pocas modificaciones se puede adaptar a Windows, basado en Debian pero se puede usar cualquier distro. Se deben crear unos directorios, establecer unos permisos, instalar unas herramientas básicas y configurarlas. La idea de este archivo es comentarte todos los pasos necesarios para impplementalo de una manera sencilla, sin más comencemos.
+
