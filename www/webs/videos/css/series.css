@@ -1,0 +1,408 @@
+@media only screen and (min-width: 1920px) {
+	body {
+		background-color:#000000;
+	}
+	.capa_marco_datos_serie {
+		position:absolute; 
+		left:0; 
+		top:50; 
+		height:300; 
+		width:100%; 
+		background-color:#000; 
+		overflow:hidden;
+		background-position:center; 
+		background-size:cover;
+	}
+	.capa_tabla_datos_serie {
+		position:absolute; 
+		display:table; 
+		left:70%; 
+		top:0; 
+		width:30%; 
+		height:100%; 
+		background-image:linear-gradient(to right,rgba(0,0,0,0),rgba(0,0,0,1));
+	}
+	.capa_celda_datos_serie {
+		display:table-cell; 
+		width:100%; 
+		height:100%; 
+		text-align:right; 
+		vertical-align:bottom; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:7px; 
+		color:#FFFFFF; 
+		font-size:1.3em; 
+	}
+	.capa_marco_lista_serie {
+		position:absolute; 
+		left:30%; 
+		top:355; 
+		width:65%; 
+		height:10; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.capa_cont_lista_serie {
+		position:relative; 
+		width:100%; 
+		height:300; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px; 
+	}
+	.capa_datos_lista_serie {
+		position:relative; 
+		width:100%; 
+		height:98%; 
+		overflow:hidden; 
+		border-radius:20px 0px 20px 0px; 
+		background-position:center; 
+		background-size:cover; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.capa_tabla_lista_serie {
+		display:table; 
+		width:100%; 
+		height:100%; 
+		background-color:#000000; 
+		opacity:0.2; 
+		color:#FFFFFF; 
+		font-size:1.4em; 
+		cursor:pointer;
+	}
+	.capa_tabla_lista_serie:hover {
+		opacity:0.8;
+	}
+	.capa_row_lista_serie {
+		display:table-row; 
+		height:100%;
+	}
+	.capa_celda_lista_serie_01 {
+		display:table-cell; 
+		width:30%; 
+		text-align:center; 
+		vertical-align:middle; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:5px; 
+		font-weight:bold; 
+	}
+	.capa_celda_lista_serie_02 {
+		display:table-cell; 
+		width:70%; 
+		text-align:left; 
+		vertical-align:top; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:5px; 
+	}
+}
+@media only screen and ((min-width: 1280px) and (max-width: 1919px)) {
+	body {
+		background-color:#000000;
+	}
+	.capa_marco_datos_serie {
+		position:absolute; 
+		left:0; 
+		top:50; 
+		height:250; 
+		width:100%; 
+		background-color:#000; 
+		overflow:hidden;
+		background-position:center; 
+		background-size:cover;
+	}
+	.capa_tabla_datos_serie {
+		position:absolute; 
+		display:table; 
+		left:60%; 
+		top:0; 
+		width:40%; 
+		height:100%; 
+		background-image:linear-gradient(to right,rgba(0,0,0,0),rgba(0,0,0,1));
+	}
+	.capa_celda_datos_serie {
+		display:table-cell; 
+		width:100%; 
+		height:100%; 
+		text-align:right; 
+		vertical-align:bottom; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:7px; 
+		color:#FFFFFF; 
+		font-size:1.2em; 
+	}
+	.capa_marco_lista_serie {
+		position:absolute; 
+		left:25%; 
+		top:305; 
+		width:70%; 
+		height:10; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.capa_cont_lista_serie {
+		position:relative; 
+		width:100%; 
+		height:250; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px; 
+	}
+	.capa_datos_lista_serie {
+		position:relative; 
+		width:100%; 
+		height:98%; 
+		overflow:hidden; 
+		border-radius:20px 0px 20px 0px; 
+		background-position:center; 
+		background-size:cover; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.capa_tabla_lista_serie {
+		display:table; 
+		width:100%; 
+		height:100%; 
+		background-color:#000000; 
+		opacity:0.2; 
+		color:#FFFFFF; 
+		font-size:1em; 
+		cursor:pointer;
+	}
+	.capa_tabla_lista_serie:hover {
+		opacity:0.8;
+	}
+	.capa_row_lista_serie {
+		display:table-row; 
+		height:100%;
+	}
+	.capa_celda_lista_serie_01 {
+		display:table-cell; 
+		width:30%; 
+		text-align:center; 
+		vertical-align:middle; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:5px; 
+		font-weight:bold; 
+	}
+	.capa_celda_lista_serie_02 {
+		display:table-cell; 
+		width:70%; 
+		text-align:left; 
+		vertical-align:top; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:5px; 
+	}
+}
+@media only screen and ((min-width: 800px) and (max-width: 1279px)) {
+	body {
+		background-color:#000000;
+	}
+	.capa_marco_datos_serie {
+		position:absolute; 
+		left:0; 
+		top:30; 
+		height:200; 
+		width:100%; 
+		background-color:#000; 
+		overflow:hidden;
+		background-position:center; 
+		background-size:cover;
+	}
+	.capa_tabla_datos_serie {
+		position:absolute; 
+		display:table; 
+		left:40%; 
+		top:0; 
+		width:60%; 
+		height:100%; 
+		background-image:linear-gradient(to right,rgba(0,0,0,0),rgba(0,0,0,1));
+	}
+	.capa_celda_datos_serie {
+		display:table-cell; 
+		width:100%; 
+		height:100%; 
+		text-align:right; 
+		vertical-align:bottom; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:7px; 
+		color:#FFFFFF; 
+		font-size:1em; 
+	}
+	.capa_marco_lista_serie {
+		position:absolute; 
+		left:15%; 
+		top:235; 
+		width:80%; 
+		height:10; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.capa_cont_lista_serie {
+		position:relative; 
+		width:100%; 
+		height:250; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px; 
+	}
+	.capa_datos_lista_serie {
+		position:relative; 
+		width:100%; 
+		height:98%; 
+		overflow:hidden; 
+		border-radius:20px 0px 20px 0px; 
+		background-position:center; 
+		background-size:cover; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.capa_tabla_lista_serie {
+		display:table; 
+		width:100%; 
+		height:100%; 
+		background-color:#000000; 
+		opacity:0.2; 
+		color:#FFFFFF; 
+		font-size:0.9em; 
+		cursor:pointer;
+	}
+	.capa_tabla_lista_serie:hover {
+		opacity:0.8;
+	}
+	.capa_row_lista_serie {
+		display:table-row; 
+		height:100%;
+	}
+	.capa_celda_lista_serie_01 {
+		display:table-cell; 
+		width:30%; 
+		text-align:center; 
+		vertical-align:middle; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:5px; 
+		font-weight:bold; 
+	}
+	.capa_celda_lista_serie_02 {
+		display:table-cell; 
+		width:70%; 
+		text-align:left; 
+		vertical-align:top; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:5px; 
+	}
+}
+@media only screen and (max-width: 799px) {
+	body {
+		background-color:#000000;
+	}
+	.capa_marco_datos_serie {
+		position:absolute; 
+		left:0; 
+		top:30; 
+		height:250; 
+		width:100%; 
+		background-color:#000; 
+		overflow:hidden;
+		background-position:center; 
+		background-size:cover;
+	}
+	.capa_tabla_datos_serie {
+		position:absolute; 
+		display:table; 
+		left:10%; 
+		top:0; 
+		width:90%; 
+		height:100%; 
+		background-image:linear-gradient(to right,rgba(0,0,0,0),rgba(0,0,0,1));
+	}
+	.capa_celda_datos_serie {
+		display:table-cell; 
+		width:100%; 
+		height:100%; 
+		text-align:right; 
+		vertical-align:bottom; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:7px; 
+		color:#FFFFFF; 
+		font-size:1em; 
+	}
+	.capa_marco_lista_serie {
+		position:absolute; 
+		left:5%; 
+		top:305; 
+		width:90%; 
+		height:10; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.capa_cont_lista_serie {
+		position:relative; 
+		width:100%; 
+		height:250; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px; 
+	}
+	.capa_datos_lista_serie {
+		position:relative; 
+		width:100%; 
+		height:98%; 
+		overflow:hidden; 
+		border-radius:20px 0px 20px 0px; 
+		background-position:center; 
+		background-size:cover; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:0px;
+	}
+	.capa_tabla_lista_serie {
+		display:table; 
+		width:100%; 
+		height:100%; 
+		color:#FFFFFF; 
+		font-size:1.1em; 
+		cursor:pointer;
+	}
+	.capa_row_lista_serie {
+		display:table-row; 
+		height:100%;
+	}
+	.capa_celda_lista_serie_01 {
+		display:table-cell; 
+		width:30%; 
+		text-align:right; 
+		vertical-align:bottom; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:5px; 
+		font-weight:bold;
+		background-image:linear-gradient(to right,rgba(0,0,0,0),rgba(0,0,0,1)); 
+	}
+	.capa_celda_lista_serie_02 {
+		display:none; 
+		width:70%; 
+		text-align:left; 
+		vertical-align:top; 
+		border:0px; 
+		border-spacing:0px; 
+		padding:5px; 
+	}
+}
