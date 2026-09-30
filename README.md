@@ -1,39 +1,38 @@
 # intranet
-Este proyecto es para crear tu propia intranet en una red local. Este nació como un proyecto personal para escuchar mi música y ver videos desde un servidor mediante un navegador y por culpa de un desperfecto técnico.
-Como dije nació como un proyecto personal que no pensaba compartir pero visto y considerando todo lo q sucede (o sucederá) con lo físico y luego la eliminación de las peliculas por Sony. También situaciones como la desaparición de peliculas de sitios de streaming, todo eso me llevó a completarlo en un 100% y compartirlo.
+This project is designed to let you create your own intranet on a local network. It began as a personal project—sparked by a technical issue—to stream my music and videos from a server via a web browser.
+As I mentioned, it started as a personal project I hadn't intended to share. However, considering everything happening (or likely to happen) regarding physical media—such as Sony removing movies and titles disappearing from streaming sites—I decided to fully complete it and share it with others.
 
-Esta es una intranet básica donde mostraremos frases, novedades, ver videos mediante streaming, escuchar música y herramientas para administrar todo esto. Los videos por el momento les recomiendo codificarlos mediane Handbrake para no solo convertirlo en MP4 sino agregar la opción de Optimización Web para mejorar la reproducción. En cambio, vas a poder subir cualquier formato de audio y el sitio lo convierte a formato mp3 de 160 kbps; decidí hacerlo así para una mayor compatibilidad con los navegadores y otro proyecto que comentaré en otro momento. En breve, armaré un instructivo en mi blog no solo para instalarlo correctamente sino que explicaré el código y las distintas decisiones que he tomado.
+This is a basic intranet where we will display quotes and news, stream videos, play music, and use tools to manage it all. For now, I recommend encoding videos using Handbrake—not just to convert them to MP4, but also to enable the "Web Optimized" setting for better playback. You can upload audio in any format, and the site will convert it to 160 kbps MP3; I chose this approach to ensure better compatibility with browsers and to support another project I’ll discuss later. Soon, I’ll post a guide on my blog covering the correct installation process, as well as an explanation of the code and the various decisions I made along the way.
 
-Este código se puede implementar en cualquier ordenador pero esta pensado para un Linux, aunque con muy pocas modificaciones se puede adaptar a Windows, basado en Debian pero se puede usar cualquier distro. Se deben crear unos directorios, establecer unos permisos, instalar unas herramientas básicas y configurarlas. La idea de este archivo es comentarte todos los pasos necesarios para impplementalo de una manera sencilla, sin más comencemos.
+This code can be implemented on any computer, though it is designed for Linux—specifically Debian-based systems, although any distribution will work. It can be adapted for Windows with only minor modifications. You will need to create directories, set permissions, and install and configure some basic tools. The purpose of this file is to walk you through all the necessary steps for a simple implementation; without further ado, let's get started.
 
-Lo primero que haremos es instalar laa herramientas necesarias, para ello debemos ejecutar lo siguiente:
+The first step is to install the necessary tools; to do this, we must execute the following:
 ```
 $ sudo apt-get install mariadb-server mariadb-client mariadb-common -y
 $ sudo apt-get install apache2 -y
 $ sudo apt-get install php php-pear php-mysql -y
 $ sudo apt-get install ffmpeg -y
 ```
-Aqui instalaremos la basse de datos, el servidor web, el lenguaje en el servidor y la conversora de audio. Lo siguiente es crear los directorios donde almacenaremos todo; para ello en el raíz deben crear un directorio llamado www, otro musica y otro videos. El primero será para el servidor en si, los siguientes son para contener los archivos de música y videos respectivamente. En el directorio www deben copiar a webs e index.html tal comoo esta en el repositorio, todo esto deben hacerlo con su o sudo, y con esto tener el servidor ya copiado. En musica deben crear dos sub-directorios llamados pics y temporal, el primero es para almacenar imagenes de los discos o canciones y el segundo es el encargado de recodificar los archivos que suban; en videos solo deben crear un sub-directorio llamado pics para las imagenes. Lo siguiente es modificar los permisos en estos directorios, les paso un ejemplo:
+Here, we will install the database, the web server, the server-side language, and the audio converter. Next, we need to create the directories where everything will be stored; to do this, create three directories at the root level: `www`, `musica`, and `videos`. The first is for the server itself, while the others will hold the music and video files, respectively. Inside the `www` directory, copy `webs` and `index.html` exactly as they appear in the repository—make sure to use `su` or `sudo` for this step to ensure the server files are properly copied. Within the `musica` directory, create two subdirectories named `pics` and `temporal`: the first stores album or song artwork, and the second handles the transcoding of uploaded files. For the `videos` directory, simply create a subdirectory named `pics` for images. The next step is to copy `fondo.jpg` into the `pics` subdirectory within `musica`, and `foto01.jpeg` into the `pics` subdirectory within `videos`. Finally, we need to modify the permissions for these directories; here is an example:
 ```
 $ sudo chown -R www-data:www-data /www
 $ sudo chown -R u=rwx,g=rx,o=rx /www
 ```
-La primer línea es para establecer al usuario del daemon del apache, si es otro usuario modifiquen al que correspoonda, y una sugerencia es cambiar el grupo a uno para poder modificar los archivos. En la segunda línea establecemos los permisos; si usan a otro grupo deben conceder control total como al usuario. Con todo esto ya tenemos todo establecido lo básico para poder utilizar al servidor Web pero nos faltan unas configuraciones.
+The first line sets the Apache daemon user; if a different user is used, modify it accordingly. It is also recommended to change the group to one that allows file modification. The second line sets the permissions; if using a different group, you must grant it full control, just as you did for the user. With this, the basic setup for using the web server is complete, though a few additional configurations are still required.
 
-Nuestro siguiente paso es crear la base de datos, para ello deben ejecutar a mariadb, una vez dentro generen una base de datos con el siguiente comando:
+Our next step is to create the database; to do this, you must run MariaDB, and once inside, create a database using the following command:
 ```
 create database intranet;
 ```
-Con nuestra base creada, lo siguiente es crear al usuario para conectarse. Pueden crear uno o simpleente conceder los permisos y usarlo, tomen este como ejemplo:
+With the database created, the next step is to create the user for connecting. You can create a new one or simply grant the necessary permissions and use it; use this one as an example:
 ```
 grant all on *.* to 'user_id'@'localhost' identified by 'password' with grant option;
 ```
-Con estas tareas realizadas, solo nos resta generar las tablas y agregar el archivo de conexión. Para agregar las tablas desde el backup deben usar al archivo tablas.sql del repositorio. Para ello, pueden usar una herramienta, o puedes hacerlo de la siguiente manera:
+With these tasks completed, all that remains is to generate the tables and add the connection file. To add the tables from the backup, you should use the `tablas.sql` file from the repository. You can do this using a tool, or you can proceed as follows:
 ```
 $ sudo mariadb intranet < tablas.sql
 ```
-Ahora deben tomar el archivo intranet.inc, agregar el usuario y contraseña para conectar a la base de datos. Este archivo deben copiarlo dentro de /usr/share/php, recuerden que esto es para debian si usan otra distro pueden necesitar modificarlo. Esto hará que podamos usarlo en todos nuestros códigos de manera simple sin necesidad de escribirlo en ellos. Nuestro siguiente paso es modificar la configuraciónn en el apache para que apunte al nuevo sitio. Para ello, vayan al archivo apache2.conf en /etc/apache2; comenten o borren el siguiente bloque:
-
+Now, take the `intranet.inc` file and add the username and password for connecting to the database. Copy this file to `/usr/share/php` (keep in mind that this applies to Debian; if you are using another distribution, you may need to modify the path). This allows us to use it easily across our code without having to write the details into each file. The next step is to modify the Apache configuration to point to the new site. To do this, go to the `apache2.conf` file in `/etc/apache2` and comment out or delete the following block:
 ```
 <Directory /var/www/>
        Options Indexes FollowSymLinks
@@ -41,7 +40,7 @@ Ahora deben tomar el archivo intranet.inc, agregar el usuario y contraseña para
        Require all granted
 </Directory>
 ```
-Con esto eliminamos el recurso predeterminado que usa apache para informar que esta correctamente instalado. Procedamos a agregar no solamente el nuevo sitio sino también los directorios donde almacenaremos la música y videos respectivamente. En el mismo lugar agreguen los siguientes bloques:
+This removes the default resource Apache uses to indicate that it is correctly installed. Let's proceed to add not only the new site but also the directories where we will store the music and videos, respectively. Add the following blocks in the same location:
 ```
 <Directory /www/>
         Options Indexes FollowSymLinks
@@ -65,45 +64,43 @@ Con esto eliminamos el recurso predeterminado que usa apache para informar que e
         Require all granted
 </Directory>
 ```
-Para finalizar la configuración del apache debemos ir a /etc/apache2/sites-enabled/000-default.conf. En este buscaremos la línea DocumentRoot a /var/www/html para eliminarla o comentarla. Con esto realizado, agregaremos las siguientes líneas:
+To finish configuring Apache, we need to go to `/etc/apache2/sites-enabled/000-default.conf`. There, we will look for the `DocumentRoot /var/www/html` line and either remove or comment it out. Once that is done, we will add the following lines:
 ```
 DocumentRoot /www/
 LimitRequestBody 0
 Alias /musica /musica        
 Alias /videos /videos
 ```
-La primer línea es la encargada del sitio, la segunda es para informarle que no utilice la restricción de archivos mayor de 1 GB, esto es fundamental para los videos; ya que es una restricción que incorporó apache en la versión 2.4 (por lo mennos en una versión 2.2 no tuve que usarlo) y las otras son alias para poder acceder via navegador a los directorios contenedores. Con todo esto realizado solo resta reiniciar el servicio de apache para que tome los nuevos cambios y ya pueden probarlo en un navegador.
-<pre>
-Nota: LimitRequestBody tiene como límite máximo 2147483647 que son 2 GB
-</pre>
-A continuación, haremos una serie de modificaciones en PHP orientada principalmente a la carga de grandes archivos en el servidor. Para ello, nos dirigiremos a /etc/php/8.4/apache2/php.ini y buscaremos la sección Resource Limits. En esta modificaremos las siguientes líneas:
+The first line handles the site configuration, while the second advises against using the file size restriction for files larger than 1 GB—which is crucial for videos, as this restriction was introduced in Apache version 2.4 (unlike version 2.2, where it wasn't necessary). The remaining lines are aliases that allow browser access to the containing directories. Once all this is done, you simply need to restart the Apache service to apply the changes, and then you can test it in a browser.
+```
+Note: LimitRequestBody has a maximum limit of 2147483647, which is 2 GB.
+```
+Next, we will make a series of PHP modifications aimed primarily at uploading large files to the server. To do this, we will navigate to `/etc/php/x.x/apache2/php.ini` and locate the "Resource Limits" section. Within this section, we will modify the following lines:
 ```
 max_execution_time = 3600
 max_input_time = 3600
 memory_limit = 512M
 ```
-Las primeras dos líneas se encargan de los tiempos de espera del script, tanto para la ejecución como la carga, y el otro es para asignar cuanta memoria puede usar para dichas tareas. Este último no es obligatorio pero si noté una mejora cuando le establecí un poco más. La siguiente opción es totalmente opcional pero es buena si tenes una virtual para el desarrollo y testing. En la sección de Error handling and logging deben cambiar display_errors de Off a On. Esto nos indicará los errores que ocurran con el script de PHP, en el servidor de "produccióo" recomiendo desactivarlo. La siguiente modificación es en la sección de Data Handling. En este solamente debemos modificar la siguiente línea de esta manera:
+The first two lines handle script timeout settings—covering both execution and loading times—while the other assigns the amount of memory available for these tasks. The latter isn't mandatory, though I did notice an improvement after increasing the limit slightly. The next option is entirely optional but useful if you are using a virtual machine for development and testing. In the "Error handling and logging" section, you need to change `display_errors` from "Off" to "On." This will show any errors occurring in the PHP script; however, I recommend disabling this on a production server. The next modification is in the "Data Handling" section. Here, we simply need to modify the following line as shown:
 ```
 post_max_size = 0
 ```
-Esta simplemente es para evitar dolores de cabeza al momento de subir archivos muy grandes, si necesitan establecer un límite les recomiendo ponerlo como 1G, 800M, 200k. Solo nos resta una modificación más y es en la sección de File Uploads. Modifiquen las siguientes líneas de esta manera:
+This is simply to avoid headaches when uploading very large files; if you need to set a limit, I recommend using values ​​like 1G, 800M, or 200k. There is just one more modification left, in the File Uploads section. Modify the following lines as shown:
 ```
 upload_max_filesize = 4G
 max_file_uploads = 999
 ```
-Simplemente establecemos el tamaño máximo y la cantidad máxima de archivos a subir. Ahora simplemente deben reiniciar nuevamente al servicio de apache y con esto terminamos todas las configuraciones básicas para no tener inconvenientes.
-```
-Nota:
-Esta configuración que te sugiero es porque me sucedió con un par de pelis y algunos discos que subí al sitio, en File Uploads deben descomentar a la línea upload_tmp_dir y establecer un directorioo de destino. Esto tuve que hacerlo porque sino usa el directorio tmp del sisema y si es más chico que lo recibido lo rechaza y no funciona. Para evitar incovennientes genere un directorio tmp en www ccon los permisos correspondiente y lo asigne en la línea citada.
-```
-Esta es como la versión 30 o 31 de esta página, ha pasado por muchas revisiones con mucho código innecesario así como también con mucho protagonismo de Flash, antes de la llegada de HTML5, y luego con Ajax. Si les interesa, les puedo subir la versión que mejor funcionó y más usé. Sin embargo, esto no termina acá ya que debo mejorar algunos aspectos:
+We simply set the maximum size and the maximum number of files to be uploaded. Now, you just need to restart the Apache service, and with that, we have completed all the basic configurations to ensure everything runs smoothly.
+<pre>
+Note:
+I suggest this configuration because of an issue I encountered with a couple of movies and some files I uploaded to the site. Under "File Uploads," you need to uncomment the `upload_tmp_dir` line and specify a destination directory. I had to do this because, otherwise, the system uses its default `tmp` directory; if that directory is smaller than the file being uploaded, the upload is rejected and fails. To avoid problems, I created a `tmp` directory within `www` with the appropriate permissions and assigned it to that line.
+</pre>
+This is something like the 30th or 31st version of this page; it has undergone many revisions involving a lot of unnecessary code and a heavy reliance on Flash—back before the arrival of HTML5—and later on Ajax. If you're interested, I can upload the version that worked best and that I used the most. However, it doesn't end there, as I still need to improve a few aspects:
+* Enable video uploads with on-site conversion (similar to the music feature).
+* Implement user logins for an enhanced experience (e.g., video tracking, personalized playlists).
+* Improve tools allowing users to update their details or reset their passwords (currently not possible).
+* Add more tools for better database management.
+* Improve video presentation (currently in progress).
+* Refine the code and address specific issues I'm not entirely happy with (I'll never change 🤣).
 
-* Subir videos y que los convierta el sitio, como hace con la música  
-* Ingreso al sitio con usuario para una mejor experiencia, como seguimiento en los videos, playlists personalizados, etc
-* Mejorar las herramientas para que los invitados puedan cambiar sus datos o resetear su password, actualmente no pueden
-* Agregar más herramientas para manejar mejor las bases
-* Mejorar la presentación de los videos (actualmente en ello)
-* Mejorar el código y algunos temas puntuales que no me estan convenciendo (no cambio más 🤣)
-
-Trataré en lo posible de no abandonarlo tanto y subir todas modificaciones que vaya realizando. A continuación les dejó unos links para ver como funciona actualmente:
-
+I will try my best not to neglect it too much and to upload any modifications I make. Below are some links to see how it currently works:
