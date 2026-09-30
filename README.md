@@ -104,3 +104,10 @@ This is something like the 30th or 31st version of this page; it has undergone m
 * Refine the code and address specific issues I'm not entirely happy with (I'll never change 🤣).
 
 I will try my best not to neglect it too much and to upload any modifications I make. Below are some links to see how it currently works:
+
+Home: [https://youtu.be/vzRKoNdACqA](https://youtu.be/vzRKoNdACqA)
+
+Music:  [https://youtu.be/f7CKV4Wx8QE?si=SqjVRIeXHRQXrfST](https://youtu.be/f7CKV4Wx8QE?si=SqjVRIeXHRQXrfST)
+
+Videos: [https://youtu.be/K_pYjviJ6jo](https://youtu.be/K_pYjviJ6jo)
+
