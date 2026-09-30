@@ -36,3 +36,26 @@ Con estas tareas realizadas, solo nos resta generar las tablas y agregar el arch
 
 $ sudo mariadb intranet < tablas.sql
 
+Ahora deben tomar el archivo intranet.inc, agregar el usuario y contraseña para conectar a la base de datos. Este archivo deben copiarlo dentro de /usr/share/php, recuerden que esto es para debian si usan otra distro pueden necesitar modificarlo. Esto hará que podamos usarlo en todos nuestros códigos de manera simple sin necesidad de escribirlo en ellos. Nuestro siguiente paso es modificar la configuraciónn en el apache para que apunte al nuevo sitio. Para ello, vayan al archivo apache2.conf en /etc/apache2; comenten o borren el bloque de Directory /var/www/
+
+<Directory /www/>
+        Options Indexes FollowSymLinks
+        AllowOverride None
+        Require all granted
+</Directory>
+
+<Directory /musica>
+        Options Indexes FollowSymLinks MultiViews
+        AllowOverride None
+        Order allow,deny
+        allow from all
+        Require all granted
+</Directory>
+
+<Directory /videos>
+        Options Indexes FollowSymLinks MultiViews
+        AllowOverride None
+        Order allow,deny
+        allow from all
+        Require all granted
+</Directory>
