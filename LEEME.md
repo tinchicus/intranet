@@ -106,3 +106,8 @@ Esta es como la versión 30 o 31 de esta página, ha pasado por muchas revisione
 
 Trataré en lo posible de no abandonarlo tanto y subir todas modificaciones que vaya realizando. A continuación les dejó unos links para ver como funciona actualmente:
 
+Home: [https://youtu.be/vzRKoNdACqA](https://youtu.be/vzRKoNdACqA)
+
+Music:  [https://youtu.be/f7CKV4Wx8QE?si=SqjVRIeXHRQXrfST](https://youtu.be/f7CKV4Wx8QE?si=SqjVRIeXHRQXrfST)
+
+Videos: [https://youtu.be/K_pYjviJ6jo](https://youtu.be/K_pYjviJ6jo)
