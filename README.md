@@ -22,3 +22,17 @@ $ sudo chown -R www-data:www-data /www
 
 $ sudo chown -R u=rwx,g=rx,o=rx /www
 
+La primer línea es para establecer al usuario del daemon del apache, si es otro usuario modifiquen al que correspoonda, y una sugerencia es cambiar el grupo a uno para poder modificar los archivos. En la segunda línea establecemos los permisos; si usan a otro grupo deben conceder control total como al usuario. Con todo esto ya tenemos todo establecido lo básico para poder utilizar al servidor Web pero nos faltan unas configuraciones.
+
+Nuestro siguiente paso es crear la base de datos, para ello deben ejecutar a mariadb, una vez dentro generen una base de datos con el siguiente comando:
+
+create database intranet;
+
+Con nuestra base creada, lo siguiente es crear al usuario para conectarse. Pueden crear uno o simpleente conceder los permisos y usarlo, tomen este como ejemplo:
+
+gran all on *.* to 'user_id'@'localhost' identified by 'password' with grant option;
+
+Con estas tareas realizadas, solo nos resta generar las tablas y agregar el archivo de conexión. Para agregar las tablas desde el backup deben usar al archivo tablas.sql del repositorio. Para ello, pueden usar una herramienta, o puedes hacerlo de la siguiente manera:
+
+$ sudo mariadb intranet < tablas.sql
+
