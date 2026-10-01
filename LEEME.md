@@ -102,6 +102,7 @@ Esta es como la versión 30 o 31 de esta página, ha pasado por muchas revisione
 * Mejorar las herramientas para que los invitados puedan cambiar sus datos o resetear su password, actualmente no pueden
 * Agregar más herramientas para manejar mejor las bases
 * Mejorar la presentación de los videos (actualmente en ello)
+* Agregar la opción de usar SSL.
 * Mejorar el código y algunos temas puntuales que no me estan convenciendo (no cambio más 🤣)
 
 Trataré en lo posible de no abandonarlo tanto y subir todas modificaciones que vaya realizando. A continuación les dejó unos links para ver como funciona actualmente:
@@ -111,3 +112,13 @@ Home: [https://youtu.be/vzRKoNdACqA](https://youtu.be/vzRKoNdACqA)
 Music:  [https://youtu.be/f7CKV4Wx8QE?si=SqjVRIeXHRQXrfST](https://youtu.be/f7CKV4Wx8QE?si=SqjVRIeXHRQXrfST)
 
 Videos: [https://youtu.be/K_pYjviJ6jo](https://youtu.be/K_pYjviJ6jo)
+
+Antes que me olvide, el usuario para acceder a las tools es webmaster y su clave es admin. Esta demas decir que deben cambiarla para una mayor seguridad o bloquuearlo.
+
+Si te resultó interesante y de utilidad puedes donar mediante los siguientes links:
+
+Si vives en argentina puedes usar MercadoPago: [https://mpago.la/2tQaqBH](https://mpago.la/2tQaqBH)
+
+Un cafecito: [https://cafecito.app/tinchicus](https://cafecito.app/tinchicus)
+
+Paypal: [https://paypal.me/tinchicus](https://paypal.me/tinchicus)
