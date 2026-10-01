@@ -111,3 +111,9 @@ Music:  [https://youtu.be/f7CKV4Wx8QE?si=SqjVRIeXHRQXrfST](https://youtu.be/f7CK
 
 Videos: [https://youtu.be/K_pYjviJ6jo](https://youtu.be/K_pYjviJ6jo)
 
+Before I forget, the username to access the tools is "webmaster" and the password is "admin." Needless to say, you should change it for better security or block access entirely.
+
+If you found this interesting and useful, you can donate via the following links:
+
+buymeacoffe: [https://buymeacoffee.com/tinchicus](https://buymeacoffee.com/tinchicus)
+
