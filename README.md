@@ -117,3 +117,4 @@ If you found this interesting and useful, you can donate via the following links
 
 buymeacoffe: [https://buymeacoffee.com/tinchicus](https://buymeacoffee.com/tinchicus)
 
+Paypal: [https://paypal.me/tinchicus](https://paypal.me/tinchicus)
