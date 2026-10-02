@@ -45,7 +45,8 @@
 
 	$queryModificar = "update videos_lista set titulo = '" . htmlspecialchars($titulo, ENT_QUOTES) . "', seccion='$seccion', categoria='$categoria', director='" . htmlspecialchars($director, ENT_QUOTES) . "', pais='$pais', idioma='$idioma', subtitulo='$subs', valor=$valor, estreno='$estreno', estudio='" . htmlspecialchars($estudio, ENT_QUOTES) . "', descripcion='" . htmlspecialchars($texto, ENT_QUOTES) . "', modificado=NOW() where codigo='$codigo'";
 	$qModificar = mysqli_query($con, $queryModificar);
-	
+	$queryTube = "update video_tube set titulo='" . htmlspecialchars($titulo, ENT_QUOTES) . "', categoria='$categoria',seccion='$seccion' where codigo='$codigo'"; 
+	$qTube = mysqli_query($con, $queryTube);	
 	$queryLimpiar = "update sesiones set codigo=NULL where token='$token'";
 	$qLimpiar = mysqli_query($con, $queryLimpiar);
 	
