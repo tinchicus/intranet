@@ -43,7 +43,8 @@
 	
 	$queryAct = "update video_tube set titulo='$titulo', seccion='$seccion', categoria='$categoria', foto='$foto_id' where codigo='$codigo'";
 	$qAct = mysqli_query($con, $queryAct);
-
+	$queryTube = "update video_tube set titulo='" . htmlspecialchars($titulo, ENT_QUOTES) . "', categoria='$categoria',seccion='$seccion' where codigo='$codigo'"; 
+	$qTube = mysqli_query($con, $queryTube);
 	$queryLimpiar = "update sesiones set codigo=NULL where token='$token'";
 	$qLimpiar = mysqli_query($con, $queryLimpiar);
 
