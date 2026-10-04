@@ -58,7 +58,7 @@
 			switch($sesion->filtro1)
 			{
 				case "pelis":
-					$filtrado="where tipo='" . $sesion->filtro1 . "' and seccion!='series'"; 
+					$filtrado="where seccion!='series'"; 
 					break;
 				case "seccion":
 				case "categoria":
