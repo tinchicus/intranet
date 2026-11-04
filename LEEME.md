@@ -16,7 +16,7 @@ $ sudo apt-get install ffmpeg -y
 Aqui instalaremos la basse de datos, el servidor web, el lenguaje en el servidor y la conversora de audio. Lo siguiente es crear los directorios donde almacenaremos todo; para ello en el raíz deben crear un directorio llamado www, otro musica y otro videos. El primero será para el servidor en si, los siguientes son para contener los archivos de música y videos respectivamente. En el directorio www deben copiar a webs e index.html tal comoo esta en el repositorio, todo esto deben hacerlo con su o sudo, y con esto tener el servidor ya copiado. En musica deben crear dos sub-directorios llamados pics y temporal, el primero es para almacenar imagenes de los discos o canciones y el segundo es el encargado de recodificar los archivos que suban; en videos solo deben crear un sub-directorio llamado pics para las imagenes. Nuestro siguiente paso es copiar el fondo.jpg en el pics dentro de musica, y a foto01.jpeg en el pics de videos. Lo siguiente es modificar los permisos en estos directorios, les paso un ejemplo:
 ```
 $ sudo chown -R www-data:www-data /www
-$ sudo chown -R u=rwx,g=rx,o=rx /www
+$ sudo chmod -R u=rwx,g=rx,o=rx /www
 ```
 La primer línea es para establecer al usuario del daemon del apache, si es otro usuario modifiquen al que correspoonda, y una sugerencia es cambiar el grupo a uno para poder modificar los archivos. En la segunda línea establecemos los permisos; si usan a otro grupo deben conceder control total como al usuario. Con todo esto ya tenemos todo establecido lo básico para poder utilizar al servidor Web pero nos faltan unas configuraciones.
 
