@@ -16,7 +16,7 @@ $ sudo apt-get install ffmpeg -y
 Here, we will install the database, the web server, the server-side language, and the audio converter. Next, we need to create the directories where everything will be stored; to do this, create three directories at the root level: `www`, `musica`, and `videos`. The first is for the server itself, while the others will hold the music and video files, respectively. Inside the `www` directory, copy `webs` and `index.html` exactly as they appear in the repository—make sure to use `su` or `sudo` for this step to ensure the server files are properly copied. Within the `musica` directory, create two subdirectories named `pics` and `temporal`: the first stores album or song artwork, and the second handles the transcoding of uploaded files. For the `videos` directory, simply create a subdirectory named `pics` for images. The next step is to copy `fondo.jpg` into the `pics` subdirectory within `musica`, and `foto01.jpeg` into the `pics` subdirectory within `videos`. Finally, we need to modify the permissions for these directories; here is an example:
 ```
 $ sudo chown -R www-data:www-data /www
-$ sudo chown -R u=rwx,g=rx,o=rx /www
+$ sudo chmod -R u=rwx,g=rx,o=rx /www
 ```
 The first line sets the Apache daemon user; if a different user is used, modify it accordingly. It is also recommended to change the group to one that allows file modification. The second line sets the permissions; if using a different group, you must grant it full control, just as you did for the user. With this, the basic setup for using the web server is complete, though a few additional configurations are still required.
 
